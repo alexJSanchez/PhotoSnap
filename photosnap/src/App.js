@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <div className="nav-left">
+          <img src="./assets/shared/desktop/logo.svg" />
+        </div>
+        <div className="nav-right"></div>
+      </nav>
+      Stories Features Pricing Get an invite Create and share your photo Stories
+      Photosnap is a platform for photographers and visual storytellers. We make
+      it easy to share photos, tell stories and connect with others. Beautiful
+      stories every time We provide design templates to ensure your stories look
+      terrific. Easily add photos, text, embed maps and media from other
+      networks. Then share your story with everyone. View the stories Designed
+      for everyone Photosnap can help you create stories that resonate with your
+      audience. Our tool is designed for photographers of all levels, brands,
+      businesses you name it. View the stories The Mountains by John Appleseed
+      Read Story Sunset Cityscapes by Benjamin Cruz Read Story 18 Days Voyage by
+      Alexei Borodin Read Story Architecturals by Samantha Brooke Read Story
+      100% Responsive No matter which the device you’re on, our site is fully
+      responsive and stories look beautiful on any screen. No Photo Upload Limit
+      Our tool has no limits on uploads or bandwidth. Freely upload in bulk and
+      share all of your stories in one go. Available to Embed Embed Tweets,
+      Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and
+      more. Home Stories Features Pricing Get an invite Copyright 2019. All
+      Rights Reserved
     </div>
   );
 }
