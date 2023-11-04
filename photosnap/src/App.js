@@ -1,4 +1,5 @@
-import logo from "./logo.svg";
+import logo from "./assets/shared/desktop/logo.svg";
+import mobilemenu from "./assets/shared/mobile/menu.svg";
 import "./App.css";
 
 function App() {
@@ -6,9 +7,11 @@ function App() {
     <div className="App">
       <nav>
         <div className="nav-left">
-          <img src="./assets/shared/desktop/logo.svg" />
+          <img src={logo} />
         </div>
-        <div className="nav-right"></div>
+        <div className="nav-right">
+          <img src={mobilemenu} />
+        </div>
       </nav>
       Stories Features Pricing Get an invite Create and share your photo Stories
       Photosnap is a platform for photographers and visual storytellers. We make
