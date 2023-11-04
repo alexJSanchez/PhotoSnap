@@ -1,6 +1,7 @@
 import logo from "./assets/shared/desktop/logo.svg";
 import mobile_menu from "./assets/shared/mobile/menu.svg";
 import create_and_share from "./assets/home/mobile/create-and-share.jpg";
+import arrow from "./assets/shared/desktop/arrow.svg";
 import "./App.css";
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
               We make it easy to share photos, tell stories and connect with
               others.
             </p>
+            <div className="button-four">
+              <button>Get An Invite</button>
+              <img className="arrow-img" src={arrow} />
+            </div>
           </div>
         </div>
       </main>
