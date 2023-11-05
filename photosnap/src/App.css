@@ -1,9 +1,3 @@
-/*import dm sans from google fonts*/
-
-@font-face {
-	name: Dm Sans;
-	src: url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
-}
 /*reset padding and margins*/
 * {
 	margin: 0;
@@ -14,6 +8,12 @@
 .btn-two {
 	display: flex;
 	gap: 16px;
+	font-family: "DM Sans", sans-serif;
+	font-size: 0.75rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.125rem;
 }
 .btn-two {
 	background-color: black;
@@ -22,14 +22,6 @@
 }
 .arrow-img {
 	filter: invert(100%) brightness(100%) contrast(100%);
-}
-.btn-p {
-	font-family: DM Sans;
-	font-size: 0.75rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	letter-spacing: 0.125rem;
 }
 
 nav {
@@ -52,7 +44,7 @@ nav {
 
 .main-card-one-bottom h2 {
 	color: #fff;
-	font-family: DM Sans;
+	font-family: "DM Sans", sans-serif;
 	font-size: 32px;
 	font-style: normal;
 	font-weight: 700;
@@ -61,10 +53,9 @@ nav {
 	text-transform: uppercase;
 }
 .main-card-one-bottom p {
-	padding-right: 4rem;
 	margin: 1rem 0rem 1.438rem 0rem;
 	color: #fff;
-	font-family: DM Sans;
+	font-family: "DM Sans", sans-serif;
 	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
