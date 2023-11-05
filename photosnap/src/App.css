@@ -12,10 +12,16 @@
 
 /*main content*/
 .btn-two {
+	display: flex;
+	gap: 16px;
+}
+.btn-two {
+	background-color: black;
+	border: none;
 	color: #fff;
 }
 .arrow-img {
-	margin-left: 16px;
+	filter: invert(100%) brightness(100%) contrast(100%);
 }
 .btn-p {
 	font-family: DM Sans;
