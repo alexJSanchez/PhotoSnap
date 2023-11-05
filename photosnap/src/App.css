@@ -8,18 +8,19 @@
 .btn-two {
 	display: flex;
 	gap: 16px;
-	font-family: "DM Sans", sans-serif;
-	font-size: 0.75rem;
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 12px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	letter-spacing: 0.125rem;
-}
-.btn-two {
+	letter-spacing: 2px;
 	background-color: black;
+	text-transform: uppercase;
 	border: none;
 	color: #fff;
 }
+
 .arrow-img {
 	filter: invert(100%) brightness(100%) contrast(100%);
 }
