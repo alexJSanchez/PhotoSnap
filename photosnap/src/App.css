@@ -41,7 +41,11 @@ nav {
 .create-and-share {
 	width: 100%;
 }
+.main-card-one {
+	background-color: #000;
+}
 .main-card-one-bottom {
+	padding: 4.5rem 1.5rem 4.5rem 2.063rem;
 	color: #fff;
 	background-color: #000;
 }
