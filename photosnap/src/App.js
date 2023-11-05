@@ -28,7 +28,7 @@ function App() {
 							others.
 						</p>
 						<div className="">
-							<button className="btn">
+							<button className="btn-two">
 								Get An Invite
 								<img className="arrow-img" src={arrow} />
 							</button>

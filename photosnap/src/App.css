@@ -1,38 +1,41 @@
-//import dm sans from google fonts
+/*import dm sans from google fonts*/
+
 @font-face {
-  name: dmSans;
-  url: url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
+	name: dmSans;
+	src: url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
 }
-//reset padding and margins
+/*reset padding and margins*/
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-//main styles
-
-.btn {
-  display: flex;
+/*main content*/
+.btn-two {
+	color: #fff;
+}
+.arrow-img {
+	margin-left: 16px;
 }
 .btn-p {
-  font-family: DM Sans;
-  font-size: 0.75rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.125rem;
+	font-family: DM Sans;
+	font-size: 0.75rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.125rem;
 }
 
 nav {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  margin: 1.5rem;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	margin: 1.5rem;
 }
 .create-and-share {
-  width: 100%;
+	width: 100%;
 }
 .main-card-one-bottom {
-  color: #fff;
-  background-color: #000;
+	color: #fff;
+	background-color: #000;
 }
