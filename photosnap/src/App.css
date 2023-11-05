@@ -1,7 +1,7 @@
 /*import dm sans from google fonts*/
 
 @font-face {
-	name: dmSans;
+	name: Dm Sans;
 	src: url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
 }
 /*reset padding and margins*/
@@ -48,4 +48,26 @@ nav {
 	padding: 4.5rem 1.5rem 4.5rem 2.063rem;
 	color: #fff;
 	background-color: #000;
+}
+
+.main-card-one-bottom h2 {
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px; /* 125% */
+	letter-spacing: 3.333px;
+	text-transform: uppercase;
+}
+.main-card-one-bottom p {
+	padding-right: 4rem;
+	margin: 1rem 0rem 1.438rem 0rem;
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px; /* 166.667% */
+	opacity: 0.6;
 }
