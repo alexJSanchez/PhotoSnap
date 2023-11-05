@@ -27,9 +27,11 @@ function App() {
               We make it easy to share photos, tell stories and connect with
               others.
             </p>
-            <div className="button-four">
-              <button>Get An Invite</button>
-              <img className="arrow-img" src={arrow} />
+            <div className="">
+              <button className="btn">
+                <p className="btn-p">Get An Invite</p>
+                <img className="arrow-img" src={arrow} />
+              </button>
             </div>
           </div>
         </div>
