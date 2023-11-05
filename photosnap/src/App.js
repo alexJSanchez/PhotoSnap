@@ -20,6 +20,7 @@ function App() {
 					<div className="main-card-one-top">
 						<img className="create-and-share" src={create_and_share} />
 					</div>
+					<div className="main-card-one-bottom-boommark"></div>
 					<div className="main-card-one-bottom">
 						<h2>Create and share your photo Stories. </h2>
 						<p>

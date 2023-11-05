@@ -2,6 +2,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 /*main content*/
@@ -29,7 +30,13 @@ nav {
 	background-color: #fff;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin: 1.5rem;
+}
+.nav-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .create-and-share {
 	width: 100%;
@@ -42,7 +49,18 @@ nav {
 	color: #fff;
 	background-color: #000;
 }
-
+.main-card-one-bottom-boommark {
+	background: linear-gradient(
+		27deg,
+		#ffc593 0%,
+		#bc7198 43.29%,
+		#5a77ff 83.33%
+	);
+	transform: translateY(-4px) translateX(2.063rem);
+	width: 128px;
+	height: 6px;
+	flex-shrink: 0;
+}
 .main-card-one-bottom h2 {
 	color: #fff;
 	font-family: "DM Sans", sans-serif;
