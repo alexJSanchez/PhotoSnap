@@ -37,22 +37,23 @@ function App() {
 						</div>
 					</div>
 				</div>
-				<div className="main-card-top">
-					<img className="create-and-share" src={beautiful_stories} />
-				</div>
-				<div className="main-card-bottom-boommark"></div>
-				<div className="main-card-bottom">
-					<h2>Create and share your photo Stories. </h2>
-					<p>
-						Photosnap is a platform for photographers and visual storytellers.
-						We make it easy to share photos, tell stories and connect with
-						others.
-					</p>
-					<div className="btn-two-box">
-						<button className="btn-two">
-							Get An Invite
-							<img className="arrow-img" src={arrow} />
-						</button>
+				<div className="bg-white">
+					<div className="main-card-top">
+						<img className="create-and-share" src={beautiful_stories} />
+					</div>
+					<div className="main-card-bottom-light">
+						<h2 className="p3">BEAUTIFUL STORIES EVERY TIME</h2>
+						<p>
+							We provide design templates to ensure your stories look terrific.
+							Easily add photos, text, embed maps and media from other networks.
+							Then share your story with everyone.
+						</p>
+						<div className="btn-two-box">
+							<button className="btn-two">
+								Get An Invite
+								<img className="arrow-img" src={arrow} />
+							</button>
+						</div>
 					</div>
 				</div>
 			</main>
