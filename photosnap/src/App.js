@@ -2,6 +2,7 @@ import logo from "./assets/shared/desktop/logo.svg";
 import mobile_menu from "./assets/shared/mobile/menu.svg";
 import create_and_share from "./assets/home/mobile/create-and-share.jpg";
 import arrow from "./assets/shared/desktop/arrow.svg";
+import beautiful_stories from "./assets/home/mobile/beautiful-stories.jpg";
 import "./App.css";
 
 function App() {
@@ -34,6 +35,24 @@ function App() {
 								<img className="arrow-img" src={arrow} />
 							</button>
 						</div>
+					</div>
+				</div>
+				<div className="main-card-top">
+					<img className="create-and-share" src={beautiful_stories} />
+				</div>
+				<div className="main-card-bottom-boommark"></div>
+				<div className="main-card-bottom">
+					<h2>Create and share your photo Stories. </h2>
+					<p>
+						Photosnap is a platform for photographers and visual storytellers.
+						We make it easy to share photos, tell stories and connect with
+						others.
+					</p>
+					<div className="btn-two-box">
+						<button className="btn-two">
+							Get An Invite
+							<img className="arrow-img" src={arrow} />
+						</button>
 					</div>
 				</div>
 			</main>
