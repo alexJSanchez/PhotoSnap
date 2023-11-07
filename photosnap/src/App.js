@@ -16,12 +16,12 @@ function App() {
 				</div>
 			</nav>
 			<main>
-				<div className="main-card-one">
-					<div className="main-card-one-top">
+				<div className="main-card">
+					<div className="main-card-top">
 						<img className="create-and-share" src={create_and_share} />
 					</div>
-					<div className="main-card-one-bottom-boommark"></div>
-					<div className="main-card-one-bottom">
+					<div className="main-card-bottom-boommark"></div>
+					<div className="main-card-bottom">
 						<h2>Create and share your photo Stories. </h2>
 						<p>
 							Photosnap is a platform for photographers and visual storytellers.

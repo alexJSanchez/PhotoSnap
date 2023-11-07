@@ -41,15 +41,15 @@ nav {
 .create-and-share {
 	width: 100%;
 }
-.main-card-one {
+.main-card {
 	background-color: #000;
 }
-.main-card-one-bottom {
+.main-card-bottom {
 	padding: 4.5rem 1.5rem 4.5rem 2.063rem;
 	color: #fff;
 	background-color: #000;
 }
-.main-card-one-bottom-boommark {
+.main-card-bottom-boommark {
 	background: linear-gradient(
 		27deg,
 		#ffc593 0%,
@@ -61,7 +61,7 @@ nav {
 	height: 6px;
 	flex-shrink: 0;
 }
-.main-card-one-bottom h2 {
+.main-card-bottom h2 {
 	color: #fff;
 	font-family: "DM Sans", sans-serif;
 	font-size: 32px;
@@ -71,7 +71,7 @@ nav {
 	letter-spacing: 3.333px;
 	text-transform: uppercase;
 }
-.main-card-one-bottom p {
+.main-card-bottom p {
 	margin: 1rem 0rem 1.438rem 0rem;
 	color: #fff;
 	font-family: "DM Sans", sans-serif;
