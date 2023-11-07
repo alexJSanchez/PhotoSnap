@@ -4,6 +4,8 @@ import create_and_share from "./assets/home/mobile/create-and-share.jpg";
 import arrow from "./assets/shared/desktop/arrow.svg";
 import beautiful_stories from "./assets/home/mobile/beautiful-stories.jpg";
 import designed_for_everyone from "./assets/home/mobile/designed-for-everyone.jpg";
+import responsive from "./assets/features/desktop/responsive.svg";
+import infinite from "./assets/features/desktop/no-limit.svg";
 import "./App.css";
 
 function App() {
@@ -81,32 +83,73 @@ function App() {
 				</div>
 				{/*sub cards*/}
 				<div className="sub-card">
-					<p className="sub-card-title">The Mountains</p>
-					<p className="sub-card-author">by John Appleseed</p>
-					<div className="line"> </div>
-					<div className="btn-two-box">
-						<button className="btn-two-light">
-							READ STORY
-							<img className="arrow-img-light" src={arrow} />
-						</button>
+					{/*one*/}
+					<div className="one">
+						<p className="sub-card-title">The Mountains</p>
+						<p className="sub-card-author">by John Appleseed</p>
+						<div className="line"> </div>
+						<div className="btn-two-box">
+							<button className="btn-two-light">
+								READ STORY
+								<img className="arrow-img-light" src={arrow} />
+							</button>
+						</div>
+					</div>
+					{/*two*/}
+					<div className="two">
+						<p className="sub-card-title">Sunset Cityscapes</p>
+						<p className="sub-card-author">by Benjamin Cruz</p>
+						<div className="line"> </div>
+						<div className="btn-two-box">
+							<button className="btn-two-light">
+								READ STORY
+								<img className="arrow-img-light" src={arrow} />
+							</button>
+						</div>
+					</div>
+					{/*three*/}
+					<div className="three">
+						<p className="sub-card-title">18 Days Voyage</p>
+						<p className="sub-card-author">by Alexei Borodin</p>
+						<div className="line"> </div>
+						<div className="btn-two-box">
+							<button className="btn-two-light">
+								READ STORY
+								<img className="arrow-img-light" src={arrow} />
+							</button>
+						</div>
+					</div>
+					<div className="four">
+						<p className="sub-card-title">Architecturals</p>
+						<p className="sub-card-author">by Samantha Brooke</p>
+						<div className="line"> </div>
+						<div className="btn-two-box">
+							<button className="btn-two-light">
+								READ STORY
+								<img className="arrow-img-light" src={arrow} />
+							</button>
+						</div>
+					</div>
+				</div>
+				<div className="details-card">
+					<div className="one">
+						<img src={responsive}></img>
+						<h3 className="heading">100% Responsive</h3>
+						<p className="para">
+							No matter which the device you’re on, our site is fully responsive
+							and stories look beautiful on any screen.
+						</p>
+					</div>
+					<div className="two">
+						<img src={infinite}></img>
+						<h3 className="heading">100% Responsive</h3>
+						<p className="para">
+							No matter which the device you’re on, our site is fully responsive
+							and stories look beautiful on any screen.
+						</p>
 					</div>
 				</div>
 			</main>
-			Beautiful stories every time We provide design templates to ensure your
-			stories look terrific. Easily add photos, text, embed maps and media from
-			other networks. Then share your story with everyone. View the stories
-			Designed for everyone Photosnap can help you create stories that resonate
-			with your audience. Our tool is designed for photographers of all levels,
-			brands, businesses you name it. View the stories The Mountains by John
-			Appleseed Read Story Sunset Cityscapes by Benjamin Cruz Read Story 18 Days
-			Voyage by Alexei Borodin Read Story Architecturals by Samantha Brooke Read
-			Story 100% Responsive No matter which the device you’re on, our site is
-			fully responsive and stories look beautiful on any screen. No Photo Upload
-			Limit Our tool has no limits on uploads or bandwidth. Freely upload in
-			bulk and share all of your stories in one go. Available to Embed Embed
-			Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google
-			Maps, and more. Home Stories Features Pricing Get an invite Copyright
-			2019. All Rights Reserved
 		</div>
 	);
 }

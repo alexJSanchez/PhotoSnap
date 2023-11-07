@@ -156,12 +156,60 @@ nav {
 	margin: 1rem 0rem 1.25rem 0rem;
 }
 .sub-card {
-	background-image: url("./assets/stories/mobile/mountains.jpg");
-	background-repeat: no-repeat;
-	background-size: cover; /* Adjust the size to fit your needs */
-	padding: 14.75rem 2rem 2.5rem 2rem;
-	position: relative; /* Position the linear gradient relative to the .sub-card */
+	.one {
+		background-image: url("./assets/stories/mobile/mountains.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; /* Adjust the size to fit your needs */
+		padding: 14.75rem 2rem 2.5rem 2rem;
+	}
+	.two {
+		background-image: url("./assets/stories/mobile/cityscapes.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; /* Adjust the size to fit your needs */
+		padding: 14.75rem 2rem 2.5rem 2rem;
+	}
+	.three {
+		background-image: url("./assets/stories/mobile/18-days-voyage.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; /* Adjust the size to fit your needs */
+		padding: 14.75rem 2rem 2.5rem 2rem;
+	}
+	.four {
+		background-image: url("./assets/stories/mobile/architecturals.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; /* Adjust the size to fit your needs */
+		padding: 14.75rem 2rem 2.5rem 2rem;
+	}
 }
+.details-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0rem 2rem 5rem 3.5rem;
+
+	.one h3 {
+		color: #000;
+		text-align: center;
+		font-family: DM Sans;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 25px; /* 138.889% */
+		padding: 3rem 0rem 0.875rem 0rem;
+	}
+	.one p {
+		color: #000;
+		text-align: center;
+		font-family: DM Sans;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 25px; /* 166.667% */
+		opacity: 0.6;
+	}
+}
+
 .sub-card-title {
 	color: #fff;
 	font-family: DM Sans;
