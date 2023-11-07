@@ -3,6 +3,7 @@ import mobile_menu from "./assets/shared/mobile/menu.svg";
 import create_and_share from "./assets/home/mobile/create-and-share.jpg";
 import arrow from "./assets/shared/desktop/arrow.svg";
 import beautiful_stories from "./assets/home/mobile/beautiful-stories.jpg";
+import designed_for_everyone from "./assets/home/mobile/designed-for-everyone.jpg";
 import "./App.css";
 
 function App() {
@@ -17,9 +18,10 @@ function App() {
 				</div>
 			</nav>
 			<main>
+				{/*card one*/}
 				<div className="main-card">
 					<div className="main-card-top">
-						<img className="create-and-share" src={create_and_share} />
+						<img className="w100" src={create_and_share} />
 					</div>
 					<div className="main-card-bottom-boommark"></div>
 					<div className="main-card-bottom">
@@ -29,17 +31,18 @@ function App() {
 							We make it easy to share photos, tell stories and connect with
 							others.
 						</p>
-						<div className="btn-two-box">
-							<button className="btn-two">
+						<div className="btn-four-box">
+							<button className="btn-four">
 								Get An Invite
-								<img className="arrow-img" src={arrow} />
+								<img className="arrow-img-light" src={arrow} />
 							</button>
 						</div>
 					</div>
 				</div>
+				{/*card two*/}
 				<div className="bg-white">
 					<div className="main-card-top">
-						<img className="create-and-share" src={beautiful_stories} />
+						<img className="w100" src={beautiful_stories} />
 					</div>
 					<div className="main-card-bottom-light">
 						<h2 className="p3">BEAUTIFUL STORIES EVERY TIME</h2>
@@ -51,9 +54,41 @@ function App() {
 						<div className="btn-two-box">
 							<button className="btn-two">
 								Get An Invite
-								<img className="arrow-img" src={arrow} />
+								<img className="" src={arrow} />
 							</button>
 						</div>
+					</div>
+				</div>
+				{/*card three*/}
+				<div className="bg-white">
+					<div className="main-card-top">
+						<img className="w100" src={designed_for_everyone} />
+					</div>
+					<div className="main-card-bottom-light">
+						<h2 className="">DESIGNED FOR EVERYONE</h2>
+						<p className="p2">
+							Photosnap can help you create stories that resonate with your
+							audience. Our tool is designed for photographers of all levels,
+							brands, businesses you name it.
+						</p>
+						<div className="btn-two-box">
+							<button className="btn-two">
+								VIEW THE STORIES
+								<img className="" src={arrow} />
+							</button>
+						</div>
+					</div>
+				</div>
+				{/*sub cards*/}
+				<div className="sub-card">
+					<p className="sub-card-title">The Mountains</p>
+					<p className="sub-card-author">by John Appleseed</p>
+					<div className="line"> </div>
+					<div className="btn-two-box">
+						<button className="btn-two-light">
+							READ STORY
+							<img className="arrow-img-light" src={arrow} />
+						</button>
 					</div>
 				</div>
 			</main>
