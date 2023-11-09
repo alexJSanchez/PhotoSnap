@@ -6,6 +6,7 @@ import beautiful_stories from "./assets/home/mobile/beautiful-stories.jpg";
 import designed_for_everyone from "./assets/home/mobile/designed-for-everyone.jpg";
 import responsive from "./assets/features/desktop/responsive.svg";
 import infinite from "./assets/features/desktop/no-limit.svg";
+import bullhorn from "./assets/features/desktop/embed.svg";
 import "./App.css";
 
 function App() {
@@ -132,7 +133,7 @@ function App() {
 					</div>
 				</div>
 				<div className="details-card">
-					<div className="one">
+					<div className="card-details">
 						<img src={responsive}></img>
 						<h3 className="heading">100% Responsive</h3>
 						<p className="para">
@@ -140,12 +141,20 @@ function App() {
 							and stories look beautiful on any screen.
 						</p>
 					</div>
-					<div className="two">
+					<div className="card-details">
 						<img src={infinite}></img>
-						<h3 className="heading">100% Responsive</h3>
+						<h3 className="heading">No Photo Upload Limit</h3>
 						<p className="para">
-							No matter which the device you’re on, our site is fully responsive
-							and stories look beautiful on any screen.
+							Our tool has no limits on uploads or bandwidth. Freely upload in
+							bulk and share all of your stories in one go.
+						</p>
+					</div>
+					<div className="card-details">
+						<img src={bullhorn}></img>
+						<h3 className="heading">Available to Embed</h3>
+						<p className="para">
+							Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
+							videos, Google Maps, and more.
 						</p>
 					</div>
 				</div>
