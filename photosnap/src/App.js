@@ -18,6 +18,7 @@ import "./index.css";
 function App() {
 	return (
 		<div className="App">
+			<p className="text-head1 uppercase">welcome home</p>
 			<nav>
 				<div className="nav-left">
 					<img src={logo} />
@@ -165,7 +166,6 @@ function App() {
 					</div>
 				</div>
 			</main>
-			<p className="p-8xl">alex welcome home</p>
 			<footer>
 				<img className="logo-light" src={logo} />
 				<div>
