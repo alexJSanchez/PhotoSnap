@@ -13,6 +13,7 @@ import twitter from "./assets/shared/desktop/twitter.svg";
 import pinterest from "./assets/shared/desktop/pinterest.svg";
 import instagram from "./assets/shared/desktop/instagram.svg";
 import "./App.css";
+import "./index.css";
 
 function App() {
 	return (
@@ -164,6 +165,7 @@ function App() {
 					</div>
 				</div>
 			</main>
+			<p className="p-8xl">alex welcome home</p>
 			<footer>
 				<img className="logo-light" src={logo} />
 				<div>
