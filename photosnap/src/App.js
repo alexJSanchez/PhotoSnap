@@ -13,6 +13,7 @@ import twitter from "./assets/shared/desktop/twitter.svg";
 import pinterest from "./assets/shared/desktop/pinterest.svg";
 import instagram from "./assets/shared/desktop/instagram.svg";
 import mountain from "./assets/stories/mobile/mountains.jpg";
+import cityscapes from "./assets/stories/mobile/cityscapes.jpg";
 import "./App.css";
 import "./index.css";
 
@@ -107,6 +108,20 @@ function App() {
 						</div>
 					</div>
 					{/*two*/}
+					<div className="relative">
+						<img src={cityscapes} className="w-full"></img>
+						<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
+							<p className="sub-card-title">Sunset Cityscapes</p>
+							<p className="sub-card-author">by Benjamin Cruz</p>
+							<div className="line"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
+						</div>
+					</div>
 					<div className="two">
 						<p className="sub-card-title">Sunset Cityscapes</p>
 						<p className="sub-card-author">by Benjamin Cruz</p>
