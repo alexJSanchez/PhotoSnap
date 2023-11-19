@@ -12,13 +12,13 @@ import youtube from "./assets/shared/desktop/youtube.svg";
 import twitter from "./assets/shared/desktop/twitter.svg";
 import pinterest from "./assets/shared/desktop/pinterest.svg";
 import instagram from "./assets/shared/desktop/instagram.svg";
+import mountain from "./assets/stories/mobile/mountains.jpg";
 import "./App.css";
 import "./index.css";
 
 function App() {
 	return (
 		<div className="App">
-			<p className="text-head1 uppercase">welcome home</p>
 			<nav>
 				<div className="nav-left">
 					<img src={logo} />
@@ -92,15 +92,18 @@ function App() {
 				{/*sub cards*/}
 				<div className="sub-card">
 					{/*one*/}
-					<div className="one">
-						<p className="sub-card-title">The Mountains</p>
-						<p className="sub-card-author">by John Appleseed</p>
-						<div className="line"> </div>
-						<div className="btn-two-box">
-							<button className="btn-two-light">
-								READ STORY
-								<img className="arrow-img-light" src={arrow} />
-							</button>
+					<div className="relative">
+						<img src={mountain} className="w-full"></img>
+						<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
+							<p className="sub-card-title">The Mountains</p>
+							<p className="sub-card-author">by John Appleseed</p>
+							<div className="line"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
 						</div>
 					</div>
 					{/*two*/}
