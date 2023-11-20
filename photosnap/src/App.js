@@ -23,13 +23,14 @@ import "./index.css";
 function App() {
 	return (
 		<BrowserRouter>
-			<nav>
+			<nav className="dropdown">
 				<div className="nav-left">
 					<img src={logo} />
 				</div>
 				<div className="nav-right">
 					<img src={mobile_menu} />
 				</div>
+				<div className="dropdown-menu">dropdown content</div>
 			</nav>
 			<div className="App">
 				<main>
