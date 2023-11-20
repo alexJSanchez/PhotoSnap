@@ -39,7 +39,9 @@ function App() {
 					</Link>
 				</div>
 			</nav>
-			<Home />
+			<Routes>
+				<Route path="/" element={<Home />} />
+			</Routes>
 			<footer>
 				<img className="logo-light" src={logo} />
 				<div>
