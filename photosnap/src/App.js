@@ -1,5 +1,8 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
+import Pricing from "./pages/Pricing";
+import Stories from "./pages/Stories";
+import Features from "./pages/Features";
 import logo from "./assets/shared/desktop/logo.svg";
 import mobile_menu from "./assets/shared/mobile/menu.svg";
 import arrow from "./assets/shared/desktop/arrow.svg";
@@ -41,6 +44,9 @@ function App() {
 			</nav>
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="pricing" element={<Pricing />} />
+				<Route path="stories" element={<Stories />} />
+				<Route path="features" element={<Features />} />
 			</Routes>
 			<footer>
 				<img className="logo-light" src={logo} />
