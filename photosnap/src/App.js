@@ -32,7 +32,20 @@ function App() {
 						<img src={mobile_menu} />
 					</div>
 				</div>
-				<div className="dropdown-menu">dropdown content</div>
+				<div className="dropdown-menu flex flex-col items-center">
+					<Link to="/">
+						<h2>Home</h2>
+					</Link>
+					<Link to="stories">
+						<h2>Stories</h2>
+					</Link>
+					<Link to="features">
+						<h2>Features</h2>
+					</Link>
+					<Link to="pricing">
+						<h2>Pricing</h2>
+					</Link>
+				</div>
 			</nav>
 			<div className="App">
 				<main>
