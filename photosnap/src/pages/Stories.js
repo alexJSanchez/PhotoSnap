@@ -11,7 +11,10 @@ export default function Stories() {
         <div className="main-card-bottom">
           <h4>LAST MONTH’S FEATURED STORY</h4>
           <h2>HAZY FULL MOON OF APPALACHIA </h2>
-
+          <div className="flex sub-text">
+            <p className="text-[13px]">March 2nd 2020</p>
+            <p>by John Appleseed</p>
+          </div>
           <p>
             Photosnap is a platform for photographers and visual storytellers.
             We make it easy to share photos, tell stories and connect with

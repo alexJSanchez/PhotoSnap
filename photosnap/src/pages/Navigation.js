@@ -7,11 +7,11 @@ export default function Navigation() {
   const [dropdown, SetDropdown] = useState(false);
   return (
     <nav className="dropdown">
-      <div className="nav">
+      <div className="bg-white flex justify-between mt-[1.7rem] mr-[1.5rem] mb-[1.7rem] ml-[1rem]">
         <div className="nav-left">
           <img src={logo} />
         </div>
-        <div className="nav-right">
+        <div className="flex justify-center items-center">
           <img
             className="link"
             onClick={() => {

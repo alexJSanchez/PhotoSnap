@@ -68,12 +68,6 @@
   filter: invert(100%) brightness(100%) contrast(100%);
 }
 
-.nav {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  margin: 1.7rem 1.5rem 1.7rem 1rem;
-}
 .nav-right {
   display: flex;
   justify-content: center;
