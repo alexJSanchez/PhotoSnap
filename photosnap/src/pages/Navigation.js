@@ -18,11 +18,12 @@ export default function Navigation() {
               SetDropdown(!dropdown);
             }}
             src={mobile_menu}
+            alt="dropdown hamburger button"
           />
         </div>
       </div>
       {dropdown ? (
-        <div className="dropdown-menu flex flex-col items-center">
+        <div className="dropdown-menu dropdown-font flex flex-col items-center">
           <Link to="/">
             <h2>Home</h2>
           </Link>
