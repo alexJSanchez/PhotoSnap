@@ -292,4 +292,5 @@ footer p {
   letter-spacing: 2.5px;
   text-transform: uppercase;
   gap: 1rem;
+  z-index: 1;
 }
