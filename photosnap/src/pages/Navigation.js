@@ -23,7 +23,7 @@ export default function Navigation() {
         </div>
       </div>
       {dropdown ? (
-        <div className="dropdown-menu dropdown-font flex flex-col items-center px-2">
+        <div className="dropdown-menu dropdown-font flex flex-col items-center px-[2rem]">
           <Link to="/">
             <h2>Home</h2>
           </Link>
@@ -37,6 +37,9 @@ export default function Navigation() {
             <h2>Pricing</h2>
           </Link>
           <div className="line bg-black px-4"> </div>
+          <button className="py-[1rem] text-white bg-black w-full">
+            Get An Invite
+          </button>
         </div>
       ) : (
         <></>
