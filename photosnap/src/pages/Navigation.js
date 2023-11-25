@@ -4,7 +4,7 @@ import logo from "../assets/shared/desktop/logo.svg";
 import mobile_menu from "../assets/shared/mobile/menu.svg";
 
 export default function Navigation() {
-  const [dropdown, SetDropdown] = useState(true);
+  const [dropdown, SetDropdown] = useState(false);
   return (
     <nav className="dropdown">
       <div className="nav">
@@ -12,7 +12,13 @@ export default function Navigation() {
           <img src={logo} />
         </div>
         <div className="nav-right">
-          <img className="link" src={mobile_menu} />
+          <img
+            className="link"
+            onClick={() => {
+              SetDropdown(!dropdown);
+            }}
+            src={mobile_menu}
+          />
         </div>
       </div>
       {dropdown ? (
