@@ -41,7 +41,7 @@ export default function Home() {
 							id="main-card-bottom"
 							className="tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem]"
 						>
-							<h2 className="text-white text-[32px] font-bold leading-[40px] tracking-[3.333px] uppercase">
+							<h2 className="text-white text-[32px] tablet:text-[40px] tablet:pr-[54px] font-bold leading-[40px] tracking-[3.333px] uppercase">
 								Create and share your photo Stories.
 							</h2>
 							<p className="mt-[1rem] mb-[1.438rem] text-white font-[15px] leading-[25px] opacity-[0.6]">
