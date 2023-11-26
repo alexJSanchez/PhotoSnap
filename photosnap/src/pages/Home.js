@@ -46,7 +46,7 @@ export default function Home() {
 							<h2 className="text-white text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 								Create and share your photo Stories.
 							</h2>
-							<p className="mt-[1rem] mb-[1.438rem] text-white font-[15px] leading-[25px] opacity-[0.6]">
+							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-white font-[15px] leading-[25px] opacity-[0.6]">
 								Photosnap is a platform for photographers and visual
 								storytellers. We make it easy to share photos, tell stories and
 								connect with others.
@@ -72,7 +72,7 @@ export default function Home() {
 							<h2 className="pr-[3.5rem] text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tablet:pr-[100px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 								BEAUTIFUL STORIES EVERY TIME
 							</h2>
-							<p className="mt-[1rem] mb-[1.438rem] text-black font-[15px] leading-[25px] opacity-[0.6]">
+							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-black font-[15px] leading-[25px] opacity-[0.6]">
 								We provide design templates to ensure your stories look
 								terrific. Easily add photos, text, embed maps and media from
 								other networks. Then share your story with everyone.
@@ -100,7 +100,7 @@ export default function Home() {
 							<h2 className="pr-[3.5rem] text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 								DESIGNED FOR EVERYONE
 							</h2>
-							<p className="mt-[1rem] mb-[1.438rem] text-black font-[15px] leading-[25px] opacity-[0.6]">
+							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-black font-[15px] leading-[25px] opacity-[0.6]">
 								Photosnap can help you create stories that resonate with your
 								audience. Our tool is designed for photographers of all levels,
 								brands, businesses you name it.
