@@ -9,7 +9,7 @@ import instagram from "../assets/shared/desktop/instagram.svg";
 import logo from "../assets/shared/desktop/logo.svg";
 export default function Footer() {
 	return (
-		<footer className="flex flex-col tablet:grid tablet:grid-cols-4 tablet:grid-row-5 tablet:px-[34px] py-[3.5rem] bg-black">
+		<footer className="flex justify-center items-center flex-col tablet:grid tablet:grid-cols-4 tablet:grid-row-5 tablet:px-[34px] py-[3.5rem] bg-black">
 			<img
 				className="logo-light tablet:col-start-1 tablet:col-end-2 tablet:row-end-1 tablet:row-start-2 tablet:row-end-3"
 				src={logo}
