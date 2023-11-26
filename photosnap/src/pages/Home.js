@@ -1,6 +1,7 @@
 import React from "react";
 
 import create_and_share from "../assets/home/mobile/create-and-share.jpg";
+import create_and_share_mid from "../assets/home/tablet/create-and-share.jpg";
 import arrow from "../assets/shared/desktop/arrow.svg";
 import beautiful_stories from "../assets/home/mobile/beautiful-stories.jpg";
 import designed_for_everyone from "../assets/home/mobile/designed-for-everyone.jpg";
@@ -17,19 +18,28 @@ export default function Home() {
 			<div className="App">
 				<main>
 					{/*card one*/}
-					<div id="main-card" className="bg-black md:grid md:grid-cols-3">
-						<div id="main-card-top" className="md:col-span-1">
+					<div
+						id="main-card"
+						className="bg-black tablet:grid tablet:grid-cols-3"
+					>
+						<div id="main-card-top" className="tablet:col-span-1">
 							<img
-								id="main-card-top-image"
-								className="w-full"
+								id="main-card-top-image "
+								className="w-full tablet:hidden"
 								src={create_and_share}
 								alt="man on mountain"
 							/>
+							<img
+								id="main-card-top-image "
+								className="w-full mobile:hidden tablet:block "
+								src={create_and_share_mid}
+								alt="man on mountain"
+							/>
 						</div>
-						<div className="main-card-bottom-boommark md:hidden"></div>
+						<div className="main-card-bottom-boommark tablet:hidden"></div>
 						<div
 							id="main-card-bottom"
-							className="md:col-span-2 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem]"
+							className="tablet:col-span-2 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem]"
 						>
 							<h2 className="text-white text-[32px] font-bold leading-[40px] tracking-[3.333px] uppercase">
 								Create and share your photo Stories.

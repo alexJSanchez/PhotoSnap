@@ -2,6 +2,10 @@
 module.exports = {
 	content: ["./src/**/*.{html,js}"],
 	theme: {
+		screens: {
+			mobile: "0px",
+			tablet: "768px",
+		},
 		extend: {
 			fontSize: {
 				head1: [
