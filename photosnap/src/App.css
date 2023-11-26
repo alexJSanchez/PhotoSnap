@@ -3,9 +3,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-
-html {
 	font-family: "Dm Sans";
 }
 
@@ -55,33 +52,11 @@ html {
 	text-transform: uppercase;
 	border: none;
 }
-.bg-black {
-	background-color: #000;
-}
-.bgwhite {
-	background-color: white;
-}
-.p3 {
-	padding-right: 3.5rem;
-}
-.p2 {
-	padding-right: 2rem;
-}
 
 .arrow-img-light {
 	filter: invert(100%) brightness(100%) contrast(100%);
 }
 
-.main-card-bottom {
-	padding: 4.5rem 1.5rem 4.5rem 2.063rem;
-	color: #fff;
-	background-color: #000;
-}
-.main-card-bottom-light {
-	padding: 4.5rem 1.5rem 4.5rem 2.063rem;
-	color: #000;
-	background-color: #fff;
-}
 .main-card-bottom-boommark {
 	background: linear-gradient(
 		27deg,
@@ -94,79 +69,14 @@ html {
 	height: 6px;
 	flex-shrink: 0;
 }
-.main-card-bottom h2 {
-	color: #fff;
-	font-family: "DM Sans", sans-serif;
-	font-size: 32px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 40px; /* 125% */
-	letter-spacing: 3.333px;
-	text-transform: uppercase;
-}
 
-.main-card-bottom p {
-	margin: 1rem 0rem 1.438rem 0rem;
-	color: #fff;
-	font-family: "DM Sans", sans-serif;
-	font-size: 15px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 25px; /* 166.667% */
-	opacity: 0.6;
-}
-.main-card-bottom-light h2 {
-	color: #000;
-	font-family: "DM Sans", sans-serif;
-	font-size: 32px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 40px; /* 125% */
-	letter-spacing: 3.333px;
-	text-transform: uppercase;
-}
-.main-card-bottom-light p {
-	margin: 1rem 0rem 1.438rem 0rem;
-	color: #000;
-	font-family: "DM Sans", sans-serif;
-	font-size: 15px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 25px; /* 166.667% */
-	opacity: 0.6;
-}
 .line {
 	width: 100%;
 	height: 1px;
 	opacity: 0.25;
 	margin: 1rem 0rem 1.25rem 0rem;
 }
-.sub-card {
-	.one {
-		background-image: url("./assets/stories/mobile/mountains.jpg");
-		background-repeat: no-repeat;
-		background-size: cover; /* Adjust the size to fit your needs */
-		padding: 14.75rem 2rem 2.5rem 2rem;
-	}
-	.two {
-		background-image: url("./assets/stories/mobile/cityscapes.jpg");
-		background-repeat: no-repeat;
-		background-size: cover; /* Adjust the size to fit your needs */
-		padding: 14.75rem 2rem 2.5rem 2rem;
-	}
-	.three {
-		background-image: url("./assets/stories/mobile/18-days-voyage.jpg");
-		background-repeat: no-repeat;
-		background-size: cover; /* Adjust the size to fit your needs */
-		padding: 14.75rem 2rem 2.5rem 2rem;
-	}
-	.four {
-		background-image: url("./assets/stories/mobile/architecturals.jpg");
-		background-repeat: no-repeat;
-		background-size: cover; /* Adjust the size to fit your needs */
-		padding: 14.75rem 2rem 2.5rem 2rem;
-	}
-}
+
 .details-card {
 	display: flex;
 	flex-direction: column;
