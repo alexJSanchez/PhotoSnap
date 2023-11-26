@@ -12,7 +12,7 @@ export default function Stories() {
 					<h4 className="text-[12px] font-[700] tracking-[2px]">
 						LAST MONTH’S FEATURED STORY
 					</h4>
-					<h2 className="py-4 pr-[5px] text-[32px] font-[700] leading-[40px] tracking-[3.33px]">
+					<h2 className="py-4 pr-[5px] tablet:pr-[125px] text-[32px] tablet:text-[40px] font-[700] leading-[40px] tablet:leading-[48px] tracking-[3.33px] tablet:tracking-[4.167px]">
 						HAZY FULL MOON OF APPALACHIA
 					</h2>
 					<div className="flex text-[13px] opacity-[.75] gap-2">
