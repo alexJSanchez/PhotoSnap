@@ -6,6 +6,7 @@ import arrow from "../assets/shared/desktop/arrow.svg";
 import beautiful_stories from "../assets/home/mobile/beautiful-stories.jpg";
 import beautiful_stories_mid from "../assets/home/tablet/beautiful-stories.jpg";
 import designed_for_everyone from "../assets/home/mobile/designed-for-everyone.jpg";
+import designed_for_everyone_mid from "../assets/home/tablet/designed-for-everyone.jpg";
 import responsive from "../assets/features/desktop/responsive.svg";
 import infinite from "../assets/features/desktop/no-limit.svg";
 import bullhorn from "../assets/features/desktop/embed.svg";
@@ -84,16 +85,22 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					{/*card three*/}
-					<div className="bg-white">
-						<div className="main-card-top">
-							<img className="w-full" src={designed_for_everyone} />
+					<div className="bg-white tablet:grid tablet:grid-cols-3">
+						<div className="tablet:col-start-1">
+							<img
+								className="w-full tablet:hidden"
+								src={designed_for_everyone}
+							/>
+							<img
+								className="w-full hidden tablet:block"
+								src={designed_for_everyone_mid}
+							/>
 						</div>
-						<div className="text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem]">
-							<h2 className="pr-[3.5rem] text-[32px] font-bold leading-[40px] tracking-[3.333px] uppercase">
+						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 tablet:row-start-1 tablet:col-end-4 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px]">
+							<h2 className="pr-[3.5rem] text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tablet:pr-[100px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 								DESIGNED FOR EVERYONE
 							</h2>
-							<p className="pr-[2rem] mt-[1rem] mb-[1.438rem] text-black font-[15px] leading-[25px] opacity-[0.6]">
+							<p className="mt-[1rem] mb-[1.438rem] text-black font-[15px] leading-[25px] opacity-[0.6]">
 								Photosnap can help you create stories that resonate with your
 								audience. Our tool is designed for photographers of all levels,
 								brands, businesses you name it.
@@ -106,6 +113,8 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
+					{/*card three*/}
+
 					{/*sub cards*/}
 					<div>
 						{/*one*/}
