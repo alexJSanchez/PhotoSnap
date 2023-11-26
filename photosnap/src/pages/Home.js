@@ -1,7 +1,5 @@
 import React from "react";
 
-import logo from "../assets/shared/desktop/logo.svg";
-import mobile_menu from "../assets/shared/mobile/menu.svg";
 import create_and_share from "../assets/home/mobile/create-and-share.jpg";
 import arrow from "../assets/shared/desktop/arrow.svg";
 import beautiful_stories from "../assets/home/mobile/beautiful-stories.jpg";
@@ -9,11 +7,6 @@ import designed_for_everyone from "../assets/home/mobile/designed-for-everyone.j
 import responsive from "../assets/features/desktop/responsive.svg";
 import infinite from "../assets/features/desktop/no-limit.svg";
 import bullhorn from "../assets/features/desktop/embed.svg";
-import facebook from "../assets/shared/desktop/facebook.svg";
-import youtube from "../assets/shared/desktop/youtube.svg";
-import twitter from "../assets/shared/desktop/twitter.svg";
-import pinterest from "../assets/shared/desktop/pinterest.svg";
-import instagram from "../assets/shared/desktop/instagram.svg";
 import mountain from "../assets/stories/mobile/mountains.jpg";
 import cityscapes from "../assets/stories/mobile/cityscapes.jpg";
 import daysvoyage from "../assets/stories/mobile/18-days-voyage.jpg";
