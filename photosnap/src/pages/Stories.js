@@ -6,18 +6,18 @@ export default function Stories() {
 		<div>
 			<div className="text-white flex justify-center flex-col">
 				<img src={moon} />
-				<div className="bg-black px-[29px]">
+				<div className="bg-black px-[29px] py-[48px]">
 					<h4 className="text-[12px] font-[700] tracking-[2px]">
 						LAST MONTH’S FEATURED STORY
 					</h4>
-					<h2 className="text-[32px] font-[700] leading-[40px] tracking-[3.33px]">
+					<h2 className="py-4 pr-[5px] text-[32px] font-[700] leading-[40px] tracking-[3.33px]">
 						HAZY FULL MOON OF APPALACHIA
 					</h2>
 					<div className="flex text-[13px] opacity-[.75] gap-2">
 						<p>March 2nd 2020</p>
 						<p>by John Appleseed</p>
 					</div>
-					<p className="text-[15px] opacity-[.60] leading-[25px]">
+					<p className="py-4 text-[15px] opacity-[.60] leading-[25px]">
 						The dissected plateau area, while not actually made up of geological
 						mountains, is popularly called "mountains," especially in eastern
 						Kentucky and West Virginia, and while the ridges are not high, the
@@ -25,7 +25,7 @@ export default function Stories() {
 					</p>
 					<div className="btn-two-box">
 						<button className="btn-two-light">
-							READ STORY
+							READ THE STORY
 							<img className="arrow-img-light" src={arrow} />
 						</button>
 					</div>
