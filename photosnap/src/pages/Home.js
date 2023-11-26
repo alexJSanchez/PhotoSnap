@@ -86,7 +86,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="bg-white tablet:grid tablet:grid-cols-3">
-						<div className="tablet:col-start-1">
+						<div className="tablet:col-start-3">
 							<img
 								className="w-full tablet:hidden"
 								src={designed_for_everyone}
@@ -96,8 +96,8 @@ export default function Home() {
 								src={designed_for_everyone_mid}
 							/>
 						</div>
-						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 tablet:row-start-1 tablet:col-end-4 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px]">
-							<h2 className="pr-[3.5rem] text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tablet:pr-[100px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
+						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px]">
+							<h2 className="pr-[3.5rem] text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 								DESIGNED FOR EVERYONE
 							</h2>
 							<p className="mt-[1rem] mb-[1.438rem] text-black font-[15px] leading-[25px] opacity-[0.6]">
