@@ -4,6 +4,7 @@ import create_and_share from "../assets/home/mobile/create-and-share.jpg";
 import create_and_share_mid from "../assets/home/tablet/create-and-share.jpg";
 import arrow from "../assets/shared/desktop/arrow.svg";
 import beautiful_stories from "../assets/home/mobile/beautiful-stories.jpg";
+import beautiful_stories_mid from "../assets/home/tablet/beautiful-stories.jpg";
 import designed_for_everyone from "../assets/home/mobile/designed-for-everyone.jpg";
 import responsive from "../assets/features/desktop/responsive.svg";
 import infinite from "../assets/features/desktop/no-limit.svg";
@@ -60,10 +61,14 @@ export default function Home() {
 					{/*card two*/}
 					<div className="bg-white tablet:grid tablet:grid-cols-3">
 						<div className="tablet:col-start-1">
-							<img className="w-full" src={beautiful_stories} />
+							<img className="w-full tablet:hidden" src={beautiful_stories} />
+							<img
+								className="w-full hidden tablet:block"
+								src={beautiful_stories_mid}
+							/>
 						</div>
-						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 tablet:row-start-1 tablet:col-end-4 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem]">
-							<h2 className="pr-[3.5rem] text-[32px] font-bold leading-[40px] tracking-[3.333px] uppercase">
+						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 tablet:row-start-1 tablet:col-end-4 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px]">
+							<h2 className="pr-[3.5rem] text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tablet:pr-[100px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 								BEAUTIFUL STORIES EVERY TIME
 							</h2>
 							<p className="mt-[1rem] mb-[1.438rem] text-black font-[15px] leading-[25px] opacity-[0.6]">
