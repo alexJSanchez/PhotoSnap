@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import arrow from "../assets/shared/desktop/arrow.svg";
 import facebook from "../assets/shared/desktop/facebook.svg";
 import youtube from "../assets/shared/desktop/youtube.svg";
@@ -21,10 +22,26 @@ export default function Footer() {
 				<img src={instagram} />
 			</div>
 			<ol className="text-white tablet:flex tablet:gap-3 tablet:col-start-1 tablet:col-end-2 tablet:row-start-2  text-center text-[12px] font-[700] tracking-[2px] uppercase list-none">
-				<li>home</li>
-				<li>stories</li>
-				<li>features</li>
-				<li>pricing</li>
+				<li>
+					<Link to="/">
+						<h2>Home</h2>
+					</Link>
+				</li>
+				<li>
+					<Link to="stories">
+						<h2>Stories</h2>
+					</Link>
+				</li>
+				<li>
+					<Link to="features">
+						<h2>Features</h2>
+					</Link>
+				</li>
+				<li>
+					<Link to="pricing">
+						<h2>Pricing</h2>
+					</Link>
+				</li>
 			</ol>
 			<div className=" tablet:col-start-4 tablet:col-end-5 tablet:row-start-1 btn-four-box mt-[2rem] mb-[3rem]">
 				<button className="btn-four">
