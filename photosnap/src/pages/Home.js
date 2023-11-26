@@ -201,7 +201,7 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<div className="details-card">
+					<div className="pb-[5rem] px-[2rem] tablet:px-[150px]">
 						<div className="card-details">
 							<img src={responsive}></img>
 							<h3 className="heading">100% Responsive</h3>

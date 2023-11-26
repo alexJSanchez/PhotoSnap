@@ -77,11 +77,6 @@
 	margin: 1rem 0rem 1.25rem 0rem;
 }
 
-.details-card {
-	display: flex;
-	flex-direction: column;
-	padding: 0rem 2rem 5rem 2rem;
-}
 .card-details {
 	margin-top: 5rem;
 	display: flex;
