@@ -22,7 +22,7 @@ export default function Home() {
 						id="main-card"
 						className="bg-black tablet:grid tablet:grid-cols-3"
 					>
-						<div id="main-card-top" className="tablet:col-span-1">
+						<div id="main-card-top" className="tablet:col-start-3">
 							<img
 								id="main-card-top-image "
 								className="w-full tablet:hidden"
@@ -39,7 +39,7 @@ export default function Home() {
 						<div className="main-card-bottom-boommark tablet:hidden"></div>
 						<div
 							id="main-card-bottom"
-							className="tablet:col-span-2 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem]"
+							className="tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem]"
 						>
 							<h2 className="text-white text-[32px] font-bold leading-[40px] tracking-[3.333px] uppercase">
 								Create and share your photo Stories.
