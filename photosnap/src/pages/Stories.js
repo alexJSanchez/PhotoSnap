@@ -1,12 +1,14 @@
 import React from "react";
 import moon from "../assets/stories/mobile/moon-of-appalacia.jpg";
+import moon_mid from "../assets/stories/desktop/moon-of-appalacia.jpg";
 import arrow from "../assets/shared/desktop/arrow.svg";
 export default function Stories() {
 	return (
 		<div>
 			<div className="text-white flex justify-center flex-col">
-				<img src={moon} />
-				<div className="bg-black px-[29px] py-[48px]">
+				<img src={moon} className="tablet:hidden" />
+				<img src={moon_mid} className="hidden tablet:block" />
+				<div className="tablet:absolute tablet:bg-transparent  bg-black px-[29px] py-[48px]">
 					<h4 className="text-[12px] font-[700] tracking-[2px]">
 						LAST MONTH’S FEATURED STORY
 					</h4>
