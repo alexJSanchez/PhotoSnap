@@ -1,279 +1,284 @@
 /*reset padding and margins*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Dm Sans";
 }
 
 /*main content*/
 .btn-four {
-  display: flex;
-  gap: 16px;
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2px;
-  background-color: black;
-  text-transform: uppercase;
-  border: none;
+	display: flex;
+	gap: 16px;
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2px;
+	background-color: black;
+	text-transform: uppercase;
+	border: none;
 }
 .btn-two {
-  display: flex;
-  gap: 16px;
-  color: #000;
-  font-family: DM Sans;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2px;
-  background-color: #fff;
-  text-transform: uppercase;
-  border: none;
+	display: flex;
+	gap: 16px;
+	color: #000;
+	font-family: DM Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2px;
+	background-color: #fff;
+	text-transform: uppercase;
+	border: none;
 }
 
 .btn-two-light {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2px;
-  background: none;
-  text-transform: uppercase;
-  border: none;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2px;
+	background: none;
+	text-transform: uppercase;
+	border: none;
 }
 .bg-black {
-  background-color: #000;
+	background-color: #000;
 }
 .bgwhite {
-  background-color: white;
+	background-color: white;
 }
 .p3 {
-  padding-right: 3.5rem;
+	padding-right: 3.5rem;
 }
 .p2 {
-  padding-right: 2rem;
+	padding-right: 2rem;
 }
 
 .arrow-img-light {
-  filter: invert(100%) brightness(100%) contrast(100%);
+	filter: invert(100%) brightness(100%) contrast(100%);
 }
 
 .main-card-bottom {
-  padding: 4.5rem 1.5rem 4.5rem 2.063rem;
-  color: #fff;
-  background-color: #000;
+	padding: 4.5rem 1.5rem 4.5rem 2.063rem;
+	color: #fff;
+	background-color: #000;
 }
 .main-card-bottom-light {
-  padding: 4.5rem 1.5rem 4.5rem 2.063rem;
-  color: #000;
-  background-color: #fff;
+	padding: 4.5rem 1.5rem 4.5rem 2.063rem;
+	color: #000;
+	background-color: #fff;
 }
 .main-card-bottom-boommark {
-  background: linear-gradient(
-    27deg,
-    #ffc593 0%,
-    #bc7198 43.29%,
-    #5a77ff 83.33%
-  );
-  transform: translateY(-4px) translateX(2.063rem);
-  width: 128px;
-  height: 6px;
-  flex-shrink: 0;
+	background: linear-gradient(
+		27deg,
+		#ffc593 0%,
+		#bc7198 43.29%,
+		#5a77ff 83.33%
+	);
+	transform: translateY(-4px) translateX(2.063rem);
+	width: 128px;
+	height: 6px;
+	flex-shrink: 0;
 }
 .main-card-bottom h2 {
-  color: #fff;
-  font-family: "DM Sans", sans-serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px; /* 125% */
-  letter-spacing: 3.333px;
-  text-transform: uppercase;
+	color: #fff;
+	font-family: "DM Sans", sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px; /* 125% */
+	letter-spacing: 3.333px;
+	text-transform: uppercase;
+}
+
+.main-card-bottom p {
+	margin: 1rem 0rem 1.438rem 0rem;
+	color: #fff;
+	font-family: "DM Sans", sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px; /* 166.667% */
+	opacity: 0.6;
 }
 .main-card-bottom-light h2 {
-  color: #000;
-  font-family: "DM Sans", sans-serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px; /* 125% */
-  letter-spacing: 3.333px;
-  text-transform: uppercase;
-}
-.main-card-bottom p {
-  margin: 1rem 0rem 1.438rem 0rem;
-  color: #fff;
-  font-family: "DM Sans", sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px; /* 166.667% */
-  opacity: 0.6;
+	color: #000;
+	font-family: "DM Sans", sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px; /* 125% */
+	letter-spacing: 3.333px;
+	text-transform: uppercase;
 }
 .main-card-bottom-light p {
-  margin: 1rem 0rem 1.438rem 0rem;
-  color: #000;
-  font-family: "DM Sans", sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px; /* 166.667% */
-  opacity: 0.6;
+	margin: 1rem 0rem 1.438rem 0rem;
+	color: #000;
+	font-family: "DM Sans", sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px; /* 166.667% */
+	opacity: 0.6;
 }
 .line {
-  width: 100%;
-  height: 1px;
-  opacity: 0.25;
-  margin: 1rem 0rem 1.25rem 0rem;
+	width: 100%;
+	height: 1px;
+	opacity: 0.25;
+	margin: 1rem 0rem 1.25rem 0rem;
 }
 .sub-card {
-  .one {
-    background-image: url("./assets/stories/mobile/mountains.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; /* Adjust the size to fit your needs */
-    padding: 14.75rem 2rem 2.5rem 2rem;
-  }
-  .two {
-    background-image: url("./assets/stories/mobile/cityscapes.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; /* Adjust the size to fit your needs */
-    padding: 14.75rem 2rem 2.5rem 2rem;
-  }
-  .three {
-    background-image: url("./assets/stories/mobile/18-days-voyage.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; /* Adjust the size to fit your needs */
-    padding: 14.75rem 2rem 2.5rem 2rem;
-  }
-  .four {
-    background-image: url("./assets/stories/mobile/architecturals.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; /* Adjust the size to fit your needs */
-    padding: 14.75rem 2rem 2.5rem 2rem;
-  }
+	.one {
+		background-image: url("./assets/stories/mobile/mountains.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; /* Adjust the size to fit your needs */
+		padding: 14.75rem 2rem 2.5rem 2rem;
+	}
+	.two {
+		background-image: url("./assets/stories/mobile/cityscapes.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; /* Adjust the size to fit your needs */
+		padding: 14.75rem 2rem 2.5rem 2rem;
+	}
+	.three {
+		background-image: url("./assets/stories/mobile/18-days-voyage.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; /* Adjust the size to fit your needs */
+		padding: 14.75rem 2rem 2.5rem 2rem;
+	}
+	.four {
+		background-image: url("./assets/stories/mobile/architecturals.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; /* Adjust the size to fit your needs */
+		padding: 14.75rem 2rem 2.5rem 2rem;
+	}
 }
 .details-card {
-  display: flex;
-  flex-direction: column;
-  padding: 0rem 2rem 5rem 2rem;
+	display: flex;
+	flex-direction: column;
+	padding: 0rem 2rem 5rem 2rem;
 }
 .card-details {
-  margin-top: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .card-details h3 {
-  color: #000;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 25px; /* 138.889% */
-  padding: 3rem 0rem 0.875rem 0rem;
+	color: #000;
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 25px; /* 138.889% */
+	padding: 3rem 0rem 0.875rem 0rem;
 }
 .card-details p {
-  color: #000;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px; /* 166.667% */
-  opacity: 0.6;
+	color: #000;
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px; /* 166.667% */
+	opacity: 0.6;
 }
 
 .sub-card-title {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 25px; /* 138.889% */
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 25px; /* 138.889% */
 }
 .sub-card-author {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+	color: #fff;
+	font-family: DM Sans;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 footer {
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3.5rem 3.75rem 3.5rem 3.75rem;
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3.5rem 3.75rem 3.5rem 3.75rem;
 }
 footer ol {
-  color: #fff;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  list-style: none;
+	color: #fff;
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	list-style: none;
 }
 footer div {
-  display: flex;
-  gap: 0.7rem;
-  margin: 2rem 0rem 3rem 0rem;
+	display: flex;
+	gap: 0.7rem;
+	margin: 2rem 0rem 3rem 0rem;
 }
 footer ol li {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 .logo-light {
-  filter: invert(100%) brightness(100%) contrast(100%);
+	filter: invert(100%) brightness(100%) contrast(100%);
 }
 footer p {
-  color: #fff;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  opacity: 0.5;
+	color: #fff;
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	opacity: 0.5;
 }
 
 .dropdown {
-  position: relative;
+	position: relative;
 }
 .dropdown-menu {
-  position: absolute;
-  left: 0;
-  top: calc(100% + 0.25rem);
-  background-color: white;
-  width: 100%;
-  padding-top: 3.75rem;
-  padding-bottom: 2rem;
+	position: absolute;
+	left: 0;
+	top: calc(100% + 0.25rem);
+	background-color: white;
+	width: 100%;
+	padding-top: 3.75rem;
+	padding-bottom: 2rem;
 }
 .dropdown-font {
-  color: #000;
-  text-align: center;
-  font-family: DM Sans;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  gap: 1rem;
-  z-index: 1;
+	color: #000;
+	text-align: center;
+	font-family: DM Sans;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	gap: 1rem;
+	z-index: 1;
 }
