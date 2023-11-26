@@ -24,9 +24,14 @@ export default function Home() {
       <div className="App">
         <main>
           {/*card one*/}
-          <div className="main-card">
-            <div className="main-card-top">
-              <img className="w100" src={create_and_share} />
+          <div id="main-card" className="bg-black">
+            <div id="main-card-top">
+              <img
+                id="main-card-top-image"
+                className="w-full"
+                src={create_and_share}
+                alt="man on mountain"
+              />
             </div>
             <div className="main-card-bottom-boommark"></div>
             <div className="main-card-bottom">
