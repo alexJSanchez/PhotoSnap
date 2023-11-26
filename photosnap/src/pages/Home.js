@@ -58,11 +58,11 @@ export default function Home() {
 						</div>
 					</div>
 					{/*card two*/}
-					<div className="bg-white">
-						<div>
+					<div className="bg-white tablet:grid tablet:grid-cols-3">
+						<div className="tablet:col-start-1">
 							<img className="w-full" src={beautiful_stories} />
 						</div>
-						<div className="text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem]">
+						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 tablet:row-start-1 tablet:col-end-4 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem]">
 							<h2 className="pr-[3.5rem] text-[32px] font-bold leading-[40px] tracking-[3.333px] uppercase">
 								BEAUTIFUL STORIES EVERY TIME
 							</h2>
