@@ -11,9 +11,13 @@ import responsive from "../assets/features/desktop/responsive.svg";
 import infinite from "../assets/features/desktop/no-limit.svg";
 import bullhorn from "../assets/features/desktop/embed.svg";
 import mountain from "../assets/stories/mobile/mountains.jpg";
+import mountain_mid from "../assets/stories/desktop/mountains.jpg";
 import cityscapes from "../assets/stories/mobile/cityscapes.jpg";
+import cityscapes_mid from "../assets/stories/desktop/cityscapes.jpg";
 import daysvoyage from "../assets/stories/mobile/18-days-voyage.jpg";
+import daysvoyage_mid from "../assets/stories/desktop/18-days-voyage.jpg";
 import architecturals from "../assets/stories/mobile/architecturals.jpg";
+import architecturals_mid from "../assets/stories/desktop/architecturals.jpg";
 export default function Home() {
 	return (
 		<>
@@ -116,10 +120,11 @@ export default function Home() {
 					{/*card three*/}
 
 					{/*sub cards*/}
-					<div>
+					<div className="tablet:grid tablet:grid-cols-2">
 						{/*one*/}
 						<div className="relative">
-							<img src={mountain} className="w-full"></img>
+							<img src={mountain} className="w-full tablet:hidden"></img>
+							<img src={mountain_mid} className="w-full hidden tablet:block" />
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
 								<p className="text-white text-[18px] font-bold leading-[25px]">
 									The Mountains
@@ -136,7 +141,11 @@ export default function Home() {
 						</div>
 						{/*two*/}
 						<div className="relative">
-							<img src={cityscapes} className="w-full"></img>
+							<img src={cityscapes} className="w-full tablet:hidden"></img>
+							<img
+								src={cityscapes_mid}
+								className="w-full hidden tablet:block"
+							></img>
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
 								<p className="text-white text-[18px] font-bold leading-[25px]">
 									Sunset Cityscapes
@@ -153,7 +162,11 @@ export default function Home() {
 						</div>
 						{/*three*/}
 						<div className="relative">
-							<img src={daysvoyage} className="w-full"></img>
+							<img src={daysvoyage} className="w-full tablet:hidden"></img>
+							<img
+								src={daysvoyage_mid}
+								className="w-full hidden tablet:block"
+							></img>
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
 								<p className="text-white text-[18px] font-bold leading-[25px]">
 									18 Days Voyage
@@ -170,7 +183,11 @@ export default function Home() {
 						</div>
 						{/*four*/}
 						<div className="relative">
-							<img src={architecturals} className="w-full"></img>
+							<img src={architecturals} className="w-full tablet:hidden"></img>
+							<img
+								src={architecturals_mid}
+								className="w-full hidden tablet:block"
+							></img>
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
 								<p className="sub-card-title">Architecturals</p>
 								<p className="sub-card-author">by Samantha Brooke</p>
