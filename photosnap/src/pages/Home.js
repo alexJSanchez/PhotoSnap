@@ -124,7 +124,7 @@ export default function Home() {
 						{/*one*/}
 						<div className="relative">
 							<img src={mountain} className="w-full tablet:hidden"></img>
-							<img src={mountain_mid} className="w-full hidden tablet:block" />
+							<img src={mountain_mid} className="w-auto hidden tablet:block " />
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
 								<p className="text-white text-[18px] font-bold leading-[25px]">
 									The Mountains

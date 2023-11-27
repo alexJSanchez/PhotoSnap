@@ -7,6 +7,9 @@ module.exports = {
 			tablet: "768px",
 		},
 		extend: {
+			backgroundImage: {
+				"hero-pattern": "url('./assets/stories/desktop/moon-of-appalacia.jpg')",
+			},
 			fontSize: {
 				head1: [
 					"2.5rem",

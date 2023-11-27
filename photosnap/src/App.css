@@ -153,3 +153,7 @@ footer ol li {
 	gap: 1rem;
 	z-index: 1;
 }
+
+.background-img {
+	background-image: url("./assets/stories/desktop/moon-of-appalacia.jpg");
+}
