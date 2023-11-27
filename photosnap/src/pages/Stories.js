@@ -7,28 +7,30 @@ export default function Stories() {
 	return (
 		<div>
 			<img src={moon} className="tablet:hidden w-full" />
-			<div className="tablet:bg-hero-pattern bg-black bg-cover w-full bg-full bg-no-repeat bg-full text-white bg-black py-[48px] px-[28px] tablet:py-[120px]">
-				<h4 className="text-[12px] font-[700] tracking-[2px]">
-					LAST MONTH’S FEATURED STORY
-				</h4>
-				<h2 className="py-4 pr-[5px] tablet:pr-[425px] text-[32px] tablet:text-[40px] font-[700] leading-[40px] tablet:leading-[48px] tracking-[3.33px] tablet:tracking-[4.167px]">
-					HAZY FULL MOON OF APPALACHIA
-				</h2>
-				<div className="flex text-[13px] opacity-[.75] gap-2">
-					<p>March 2nd 2020</p>
-					<p>by John Appleseed</p>
-				</div>
-				<p className="py-4 text-[15px] opacity-[.60] leading-[25px]">
-					The dissected plateau area, while not actually made up of geological
-					mountains, is popularly called "mountains," especially in eastern
-					Kentucky and West Virginia, and while the ridges are not high, the
-					terrain is extremely rugged.
-				</p>
-				<div className="btn-two-box">
-					<button className="btn-two-light">
-						READ THE STORY
-						<img className="arrow-img-light" src={arrow} />
-					</button>
+			<div className="tablet:bg-hero-pattern bg-black bg-center bg-no-repeat bg-cover text-white bg-black py-[48px] px-[28px] tablet:py-[120px]">
+				<div className="">
+					<h4 className="text-[12px] font-[700] tracking-[2px]">
+						LAST MONTH’S FEATURED STORY
+					</h4>
+					<h2 className="py-4 pr-[5px] tablet:max-w-[350px] text-[32px] tablet:text-[40px] font-[700] leading-[40px] tablet:leading-[48px] tracking-[3.33px] tablet:tracking-[4.167px]">
+						HAZY FULL MOON OF APPALACHIA
+					</h2>
+					<div className="flex text-[13px] opacity-[.75] gap-2">
+						<p>March 2nd 2020</p>
+						<p>by John Appleseed</p>
+					</div>
+					<p className="py-4 tablet:max-w-[387px]  text-[15px] opacity-[.60] leading-[25px]">
+						The dissected plateau area, while not actually made up of geological
+						mountains, is popularly called "mountains," especially in eastern
+						Kentucky and West Virginia, and while the ridges are not high, the
+						terrain is extremely rugged.
+					</p>
+					<div className="btn-two-box">
+						<button className="btn-two-light">
+							READ THE STORY
+							<img className="arrow-img-light" src={arrow} />
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
