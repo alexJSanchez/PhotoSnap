@@ -9,6 +9,7 @@ module.exports = {
 		extend: {
 			backgroundImage: {
 				"hero-pattern": "url('./assets/stories/desktop/moon-of-appalacia.jpg')",
+				mountain: "url('./assets/stories/mobile/mountains.jpg')",
 			},
 			fontSize: {
 				head1: [
