@@ -6,7 +6,8 @@ import arrow from "../assets/shared/desktop/arrow.svg";
 export default function Stories() {
 	return (
 		<div>
-			<div className="bg-hero-pattern bg-cover bg-no-repeat bg-full text-white bg-black px-[29px] py-[48px]">
+			<img src={moon} className="tablet:hidden w-full" />
+			<div className="tablet:bg-hero-pattern bg-black bg-cover w-full bg-full bg-no-repeat bg-full text-white bg-black py-[48px] px-[28px] tablet:py-[120px]">
 				<h4 className="text-[12px] font-[700] tracking-[2px]">
 					LAST MONTH’S FEATURED STORY
 				</h4>
