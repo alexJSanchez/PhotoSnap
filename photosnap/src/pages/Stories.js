@@ -34,7 +34,20 @@ export default function Stories() {
 				</div>
 			</div>
 			<div>
-				<div className="bg-mountain no bg-no-repeat bg-cover"></div>
+				<div className="bg-mountain  pt-[346px] text-white bg-no-repeat bg-cover">
+					<p className="text-[13px] ">April 16th 2020</p>
+					<h3 className="text-[18px] font-bold leading-[25px]">
+						The Mountains
+					</h3>
+					<p className="text-[13px]">by John Appleseed</p>
+					<span className="bg-black my-[1px]"> </span>
+					<div className="btn-two-box">
+						<button className="btn-two-light">
+							READ STORY
+							<img className="arrow-img-light" src={arrow} />
+						</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
