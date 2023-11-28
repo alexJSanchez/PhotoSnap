@@ -187,6 +187,96 @@ export default function Stories() {
 						</div>
 					</div>
 				</div>
+				<div className=" bg-rageofsea tablet:bg-rageofseamid bg-center bg-no-repeat bg-cover">
+					<div className="background-img">
+						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+							<p className="text-[13px] ">March 19th 2020</p>
+							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+								Rage of The Sea
+							</h3>
+							<p className="text-[13px] pb-4">by Mohammed Abdul</p>
+							<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light ">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className=" bg-runningfree tablet:bg-runningfreemid bg-center bg-no-repeat bg-cover">
+					<div className="background-img">
+						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+							<p className="text-[13px] ">March 16th 2020</p>
+							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+								Running Free
+							</h3>
+							<p className="text-[13px] pb-4">by Michelle</p>
+							<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light ">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className=" bg-behindwaves tablet:bg-behindwavesmid bg-center bg-no-repeat bg-cover">
+					<div className="background-img">
+						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+							<p className="text-[13px] ">March 11th 2020</p>
+							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+								Behind the Waves
+							</h3>
+							<p className="text-[13px] pb-4">by Lamarr Wilson</p>
+							<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light ">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className=" bg-calmwaters tablet:bg-calmwatersmid bg-center bg-no-repeat bg-cover">
+					<div className="background-img">
+						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+							<p className="text-[13px] ">March 9th 2020</p>
+							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+								Calm Waters
+							</h3>
+							<p className="text-[13px] pb-4">by Samantha Brooke</p>
+							<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light ">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className=" bg-milkyway tablet:bg-milkywaymid bg-center bg-no-repeat bg-cover">
+					<div className="background-img">
+						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+							<p className="text-[13px] ">March 5th 2020</p>
+							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+								The Milky Way
+							</h3>
+							<p className="text-[13px] pb-4">by Benjamin Cruz</p>
+							<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light ">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
