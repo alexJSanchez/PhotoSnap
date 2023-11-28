@@ -43,32 +43,32 @@ export default function Stories() {
 				</div>
 			</div>
 			<div>
-				<div className="bg-mountain bg-center bg-no-repeat bg-cover ">
-					<div className="pt-[215px] pb-[40px] pl-[41px] text-white  ">
+				<div className="bg-mountain bg-center bg-no-repeat bg-cover">
+					<div className="pt-[215px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 						<p className="text-[13px] ">April 16th 2020</p>
 						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
 							The Mountains
 						</h3>
 						<p className="text-[13px] pb-4">by John Appleseed</p>
-						<div className="bg-white opacity-[.25] py-[1px]"> </div>
+						<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
 						<div className="btn-two-box">
-							<button className="btn-two-light">
+							<button className="btn-two-light ">
 								READ STORY
 								<img className="arrow-img-light" src={arrow} />
 							</button>
 						</div>
 					</div>
 				</div>
-				<div className="bg-cityscapes bg-center bg-no-repeat bg-cover ">
-					<div className="pt-[215px] pb-[40px] pl-[41px] text-white  ">
+				<div className="bg-cityscapes bg-center bg-no-repeat bg-cover">
+					<div className="pt-[215px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 						<p className="text-[13px] ">April 16th 2020</p>
 						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
 							The Mountains
 						</h3>
-						<p className="text-[13px]">by John Appleseed</p>
-						<span className="bg-black my-[1px]"> </span>
+						<p className="text-[13px] pb-4">by John Appleseed</p>
+						<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
 						<div className="btn-two-box">
-							<button className="btn-two-light">
+							<button className="btn-two-light ">
 								READ STORY
 								<img className="arrow-img-light" src={arrow} />
 							</button>
