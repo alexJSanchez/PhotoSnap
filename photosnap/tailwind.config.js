@@ -25,6 +25,8 @@ module.exports = {
 				kingofafricamid: "url('./assets/stories/desktop/king-of-africa.jpg')",
 				tripnowhere: "url('./assets/stories/mobile/trip-no-where.jpg')",
 				tripnowheremid: "url('./assets/stories/desktop/trip-no-where.jpg')",
+				rageofsea: "url('./assets/stories/mobile/rage-of-sea.jpg')",
+				rageofseamid: "url('./assets/stories/desktop/rage-of-sea.jpg')",
 			},
 			fontSize: {
 				head1: [
