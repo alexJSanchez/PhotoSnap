@@ -39,6 +39,8 @@ module.exports = {
 				darkforestmid: "url('./assets/stories/desktop/dark-forest.jpg')",
 				somwarpet: "url('./assets/stories/mobile/somwarpet.jpg')",
 				somwarpetmid: "url('./assets/stories/desktop/somwarpet.jpg')",
+				dreams: "url('./assets/stories/mobile/land-of-dreams.jpg')",
+				dreamsmid: "url('./assets/stories/desktop/land-of-dreams.jpg')",
 			},
 			fontSize: {
 				head1: [
