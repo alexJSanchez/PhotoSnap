@@ -27,6 +27,12 @@ module.exports = {
 				tripnowheremid: "url('./assets/stories/desktop/trip-no-where.jpg')",
 				rageofsea: "url('./assets/stories/mobile/rage-of-sea.jpg')",
 				rageofseamid: "url('./assets/stories/desktop/rage-of-sea.jpg')",
+				runningfree: "url('./assets/stories/mobile/running-free.jpg')",
+				runningfreemid: "url('./assets/stories/desktop/running-free.jpg')",
+				behindwaves: "url('./assets/stories/mobile/behind-the-waves.jpg')",
+				behindwavesmid: "url('./assets/stories/desktop/behind-the-waves.jpg')",
+				calmwaters: "url('./assets/stories/mobile/calm-waters.jpg')",
+				calmwatersmid: "url('./assets/stories/desktop/calm-waters.jpg')",
 			},
 			fontSize: {
 				head1: [
