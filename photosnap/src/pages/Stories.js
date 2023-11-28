@@ -61,11 +61,11 @@ export default function Stories() {
 				</div>
 				<div className="bg-cityscapes tablet:bg-cityscapesmid bg-center bg-no-repeat bg-cover">
 					<div className="pt-[215px] tablet:pt-[340px]  pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
-						<p className="text-[13px] ">April 16th 2020</p>
+						<p className="text-[13px] ">April 14th 2020</p>
 						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
-							The Mountains
+							Sunset Cityscapes
 						</h3>
-						<p className="text-[13px] pb-4">by John Appleseed</p>
+						<p className="text-[13px] pb-4">by Benjamin Cruz</p>
 						<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
 						<div className="btn-two-box">
 							<button className="btn-two-light ">
@@ -77,11 +77,11 @@ export default function Stories() {
 				</div>
 				<div className="bg-dayvoyage tablet:bg-dayvoyagemid bg-center bg-no-repeat bg-cover">
 					<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
-						<p className="text-[13px] ">April 16th 2020</p>
+						<p className="text-[13px] ">April 11th 2020</p>
 						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
-							The Mountains
+							18 Days Voyage
 						</h3>
-						<p className="text-[13px] pb-4">by John Appleseed</p>
+						<p className="text-[13px] pb-4">by Alexei Borodin</p>
 						<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
 						<div className="btn-two-box">
 							<button className="btn-two-light ">
@@ -93,11 +93,43 @@ export default function Stories() {
 				</div>
 				<div className="bg-architecturals tablet:bg-architecturalsmid bg-center bg-no-repeat bg-cover">
 					<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
-						<p className="text-[13px] ">April 16th 2020</p>
+						<p className="text-[13px] ">April 9th 2020</p>
 						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
-							The Mountains
+							Architecturals
 						</h3>
-						<p className="text-[13px] pb-4">by John Appleseed</p>
+						<p className="text-[13px] pb-4">by Samantha Brooke</p>
+						<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+						<div className="btn-two-box">
+							<button className="btn-two-light ">
+								READ STORY
+								<img className="arrow-img-light" src={arrow} />
+							</button>
+						</div>
+					</div>
+				</div>
+				<div className="bg-worldtour tablet:bg-worldtourmid bg-center bg-no-repeat bg-cover">
+					<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+						<p className="text-[13px] ">April 7th 2020</p>
+						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+							World Tour 2019
+						</h3>
+						<p className="text-[13px] pb-4">by Timothy Wagner</p>
+						<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+						<div className="btn-two-box">
+							<button className="btn-two-light ">
+								READ STORY
+								<img className="arrow-img-light" src={arrow} />
+							</button>
+						</div>
+					</div>
+				</div>
+				<div className="bg-unforeseen tablet:bg-unforeseenmid bg-center bg-no-repeat bg-cover">
+					<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+						<p className="text-[13px] ">April 3rd 2020</p>
+						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+							Unforeseen Corners
+						</h3>
+						<p className="text-[13px] pb-4">by William Malcolm</p>
 						<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
 						<div className="btn-two-box">
 							<button className="btn-two-light ">

@@ -17,6 +17,14 @@ module.exports = {
 				dayvoyagemid: "url('./assets/stories/desktop/18-days-voyage.jpg')",
 				architecturals: "url('./assets/stories/mobile/architecturals.jpg')",
 				architecturalsmid: "url('./assets/stories/desktop/architecturals.jpg')",
+				worldtour: "url('./assets/stories/mobile/world-tour.jpg')",
+				worktourmid: "url('./assets/stories/desktop/world-tour.jpg')",
+				unforeseen: "url('./assets/stories/mobile/unforeseen-corners.jpg')",
+				unforeseenmid: "url('./assets/stories/desktop/unforeseen-corners.jpg')",
+				kingofafrica: "url('./assets/stories/mobile/king-of-africa.jpg')",
+				kingofafricamid: "url('./assets/stories/desktop/king-of-africa.jpg')",
+				tripnowhere: "url('./assets/stories/mobile/trip-no-where.jpg')",
+				tripnowheremid: "url('./assets/stories/desktop/trip-no-where.jpg')",
 			},
 			fontSize: {
 				head1: [
