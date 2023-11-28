@@ -33,6 +33,12 @@ module.exports = {
 				behindwavesmid: "url('./assets/stories/desktop/behind-the-waves.jpg')",
 				calmwaters: "url('./assets/stories/mobile/calm-waters.jpg')",
 				calmwatersmid: "url('./assets/stories/desktop/calm-waters.jpg')",
+				milkyway: "url('./assets/stories/mobile/milky-way.jpg')",
+				milkywaymid: "url('./assets/stories/desktop/milky-way.jpg')",
+				darkforest: "url('./assets/stories/mobile/dark-forest.jpg')",
+				darkforestmid: "url('./assets/stories/desktop/dark-forest.jpg')",
+				somwarpet: "url('./assets/stories/mobile/somwarpet.jpg')",
+				somwarpetmid: "url('./assets/stories/desktop/somwarpet.jpg')",
 			},
 			fontSize: {
 				head1: [
