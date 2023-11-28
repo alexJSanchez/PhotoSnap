@@ -42,6 +42,7 @@ module.exports = {
 				somwarpetmid: "url('./assets/stories/desktop/somwarpet.jpg')",
 				dreams: "url('./assets/stories/mobile/land-of-dreams.jpg')",
 				dreamsmid: "url('./assets/stories/desktop/land-of-dreams.jpg')",
+				sand: "url('./assets/shared/mobile/bg-beta.jpg')",
 			},
 			fontSize: {
 				head1: [
