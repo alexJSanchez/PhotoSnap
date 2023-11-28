@@ -42,8 +42,8 @@ export default function Stories() {
 					</div>
 				</div>
 			</div>
-			<div>
-				<div className="bg-mountain bg-center bg-no-repeat bg-cover">
+			<div className="tablet:grid tablet:grid-cols-2">
+				<div className="bg-mountain tablet:bg-mountainmid bg-center bg-no-repeat bg-cover">
 					<div className="pt-[215px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 						<p className="text-[13px] ">April 16th 2020</p>
 						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -59,7 +59,7 @@ export default function Stories() {
 						</div>
 					</div>
 				</div>
-				<div className="bg-cityscapes bg-center bg-no-repeat bg-cover">
+				<div className="bg-cityscapes tablet:bg-cityscapesmid bg-center bg-no-repeat bg-cover">
 					<div className="pt-[215px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 						<p className="text-[13px] ">April 16th 2020</p>
 						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
