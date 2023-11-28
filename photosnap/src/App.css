@@ -154,7 +154,7 @@ footer ol li {
 	z-index: 1;
 }
 
-.background-img {
+.background-img-gradient {
 	background: linear-gradient(
 		180deg,
 		rgba(0, 0, 0, 0) 0.27%,

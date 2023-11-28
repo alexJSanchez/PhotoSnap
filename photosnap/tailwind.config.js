@@ -8,7 +8,8 @@ module.exports = {
 		},
 		extend: {
 			backgroundImage: {
-				"hero-pattern": "url('./assets/stories/desktop/moon-of-appalacia.jpg')",
+				moon: "url('./assets/stories/mobile/moon-of-appalacia.jpg')",
+				moonmid: "url('./assets/stories/desktop/moon-of-appalacia.jpg')",
 				mountain: "url('./assets/stories/mobile/mountains.jpg')",
 				mountainmid: "url('./assets/stories/desktop/mountains.jpg')",
 				cityscapes: "url('./assets/stories/mobile/cityscapes.jpg')",

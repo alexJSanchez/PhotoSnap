@@ -17,7 +17,7 @@ export default function Stories() {
 		<div>
 			<div>
 				<img src={moon} className="tablet:hidden w-full" />
-				<div className="tablet:bg-hero-pattern bg-black bg-center bg-no-repeat bg-cover text-white bg-black py-[48px] px-[28px] tablet:py-[122px]">
+				<div className="tablet:bg-moonmid bg-black bg-center bg-no-repeat bg-cover text-white bg-black py-[48px] px-[28px] tablet:py-[122px]">
 					<h4 className="text-[12px] font-[700] tracking-[2px]">
 						LAST MONTH’S FEATURED STORY
 					</h4>
@@ -43,7 +43,7 @@ export default function Stories() {
 				</div>
 			</div>
 			<div className="tablet:grid tablet:grid-cols-2">
-				<div className="background-img">
+				<div className="background-img-gradient">
 					<div className="bg-mountain tablet:bg-mountainmid bg-center bg-no-repeat bg-cover">
 						<div className="pt-[215px] tablet:pt-[340px]  pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">April 16th 2020</p>
@@ -62,7 +62,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className="bg-cityscapes tablet:bg-cityscapesmid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px]  pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">April 14th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -80,7 +80,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className="bg-dayvoyage tablet:bg-dayvoyagemid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">April 11th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -98,7 +98,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className="bg-architecturals tablet:bg-architecturalsmid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">April 9th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -116,7 +116,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className="bg-worldtour tablet:bg-worldtourmid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">April 7th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -134,7 +134,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className="bg-unforeseen tablet:bg-unforeseenmid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">April 3rd 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -152,7 +152,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className="bg-kingonafrica tablet:bg-kingonafricamid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">March 29th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -170,7 +170,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className=" bg-tripnowhere tablet:bg-tripnowheremid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">March 21st 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -188,7 +188,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className=" bg-rageofsea tablet:bg-rageofseamid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">March 19th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -206,7 +206,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className=" bg-runningfree tablet:bg-runningfreemid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">March 16th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -224,7 +224,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className=" bg-behindwaves tablet:bg-behindwavesmid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">March 11th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -242,7 +242,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className=" bg-calmwaters tablet:bg-calmwatersmid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">March 9th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -260,7 +260,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className=" bg-milkyway tablet:bg-milkywaymid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">March 5th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -278,7 +278,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className=" bg-darkforest tablet:bg-darkforestmid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">March 4th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -296,7 +296,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className=" bg-somwarpet tablet:bg-somwarpetmid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">March 1st 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
@@ -314,7 +314,7 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className=" bg-dreams tablet:bg-dreamsmid bg-center bg-no-repeat bg-cover">
-					<div className="background-img">
+					<div className="background-img-gradient">
 						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 							<p className="text-[13px] ">February 25th 2020</p>
 							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
