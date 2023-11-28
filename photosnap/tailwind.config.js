@@ -10,6 +10,7 @@ module.exports = {
 			backgroundImage: {
 				"hero-pattern": "url('./assets/stories/desktop/moon-of-appalacia.jpg')",
 				mountain: "url('./assets/stories/mobile/mountains.jpg')",
+				cityscapes: "url('./assets/stories/mobile/cityscapes.jpg')",
 			},
 			fontSize: {
 				head1: [
