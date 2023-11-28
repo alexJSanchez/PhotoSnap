@@ -139,6 +139,40 @@ export default function Stories() {
 						</div>
 					</div>
 				</div>
+				<div className="bg-kingonafrica tablet:bg-kingonafricamid bg-center bg-no-repeat bg-cover">
+					<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+						<p className="text-[13px] ">March 29th 2020</p>
+						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+							King on Africa: Part II
+						</h3>
+						<p className="text-[13px] pb-4">by Tim Hillenburg</p>
+						<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+						<div className="btn-two-box">
+							<button className="btn-two-light ">
+								READ STORY
+								<img className="arrow-img-light" src={arrow} />
+							</button>
+						</div>
+					</div>
+				</div>
+				<div className=" bg-tripnowhere tablet:bg-tripnowheremid bg-center bg-no-repeat bg-cover">
+					<div className="background-img">
+						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+							<p className="text-[13px] ">March 21st 2020</p>
+							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+								The Trip to Nowhere
+							</h3>
+							<p className="text-[13px] pb-4">by Felicia Rourke</p>
+							<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light ">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
