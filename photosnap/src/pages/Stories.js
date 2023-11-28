@@ -277,6 +277,60 @@ export default function Stories() {
 						</div>
 					</div>
 				</div>
+				<div className=" bg-darkforest tablet:bg-darkforestmid bg-center bg-no-repeat bg-cover">
+					<div className="background-img">
+						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+							<p className="text-[13px] ">March 4th 2020</p>
+							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+								Night at The Dark Forest
+							</h3>
+							<p className="text-[13px] pb-4">by Mohammed Abdul</p>
+							<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light ">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className=" bg-somwarpet tablet:bg-somwarpetmid bg-center bg-no-repeat bg-cover">
+					<div className="background-img">
+						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+							<p className="text-[13px] ">March 1st 2020</p>
+							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+								Somwarpet’s Beauty
+							</h3>
+							<p className="text-[13px] pb-4">by Michelle</p>
+							<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light ">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className=" bg-dreams tablet:bg-dreamsmid bg-center bg-no-repeat bg-cover">
+					<div className="background-img">
+						<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+							<p className="text-[13px] ">February 25th 2020</p>
+							<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+								Land of Dreams
+							</h3>
+							<p className="text-[13px] pb-4">by William Malcolm</p>
+							<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+							<div className="btn-two-box">
+								<button className="btn-two-light ">
+									READ STORY
+									<img className="arrow-img-light" src={arrow} />
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
