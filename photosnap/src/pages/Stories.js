@@ -44,7 +44,7 @@ export default function Stories() {
 			</div>
 			<div className="tablet:grid tablet:grid-cols-2">
 				<div className="bg-mountain tablet:bg-mountainmid bg-center bg-no-repeat bg-cover">
-					<div className="pt-[215px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+					<div className="pt-[215px] tablet:pt-[340px]  pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 						<p className="text-[13px] ">April 16th 2020</p>
 						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
 							The Mountains
@@ -60,7 +60,39 @@ export default function Stories() {
 					</div>
 				</div>
 				<div className="bg-cityscapes tablet:bg-cityscapesmid bg-center bg-no-repeat bg-cover">
-					<div className="pt-[215px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+					<div className="pt-[215px] tablet:pt-[340px]  pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+						<p className="text-[13px] ">April 16th 2020</p>
+						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+							The Mountains
+						</h3>
+						<p className="text-[13px] pb-4">by John Appleseed</p>
+						<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+						<div className="btn-two-box">
+							<button className="btn-two-light ">
+								READ STORY
+								<img className="arrow-img-light" src={arrow} />
+							</button>
+						</div>
+					</div>
+				</div>
+				<div className="bg-dayvoyage tablet:bg-dayvoyagemid bg-center bg-no-repeat bg-cover">
+					<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
+						<p className="text-[13px] ">April 16th 2020</p>
+						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
+							The Mountains
+						</h3>
+						<p className="text-[13px] pb-4">by John Appleseed</p>
+						<div className="bg-white opacity-[.25] py-[1px] mb-[20px]"> </div>
+						<div className="btn-two-box">
+							<button className="btn-two-light ">
+								READ STORY
+								<img className="arrow-img-light" src={arrow} />
+							</button>
+						</div>
+					</div>
+				</div>
+				<div className="bg-architecturals tablet:bg-architecturalsmid bg-center bg-no-repeat bg-cover">
+					<div className="pt-[215px] tablet:pt-[340px] pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
 						<p className="text-[13px] ">April 16th 2020</p>
 						<h3 className="text-[18px] py-[4px] font-bold leading-[25px]">
 							The Mountains

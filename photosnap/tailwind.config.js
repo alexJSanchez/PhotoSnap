@@ -13,6 +13,10 @@ module.exports = {
 				mountainmid: "url('./assets/stories/desktop/mountains.jpg')",
 				cityscapes: "url('./assets/stories/mobile/cityscapes.jpg')",
 				cityscapesmid: "url('./assets/stories/desktop/cityscapes.jpg')",
+				dayvoyage: "url('./assets/stories/mobile/18-days-voyage.jpg')",
+				dayvoyagemid: "url('./assets/stories/desktop/18-days-voyage.jpg')",
+				architecturals: "url('./assets/stories/mobile/architecturals.jpg')",
+				architecturalsmid: "url('./assets/stories/desktop/architecturals.jpg')",
 			},
 			fontSize: {
 				head1: [
