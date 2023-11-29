@@ -42,8 +42,8 @@ export default function Features() {
 					</p>
 				</div>
 			</div>
-			<div className="tablet:grid tablet:grid-cols-2 tablet:items-center justify-center px-[39px] py-[112px] tablet:gap-[11px] content-center">
-				<div className="text-center flex flex-col items-center ">
+			<div className="tablet:grid tablet:grid-cols-2 tablet:items-end justify-center px-[39px] py-[112px] tablet:gap-[11px] content-center">
+				<div className="text-center flex flex-col items-center tablet:mt-[56px] ">
 					<img src={responsive} className="max-w-[72px]"></img>
 					<h3 className="pt-[48px] font-bold text-[18px]">100% Responsive</h3>
 					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
@@ -53,7 +53,7 @@ export default function Features() {
 				</div>
 				<div className="text-center flex flex-col items-center mt-[56px]">
 					<img src={infinite} className="max-w-[72px]"></img>
-					<h3 className="pt-[66px] text-[18px] font-bold tablet:pt-[85px]">
+					<h3 className="pt-[66px] text-[18px] font-bold ">
 						No Photo Upload Limit
 					</h3>
 					<p className="text-[15px] pt-4 leading-[25px]">
@@ -66,7 +66,7 @@ export default function Features() {
 					<h3 className="pt-[48px] text-[18px] font-bold leading-[25px]">
 						Available to Embed
 					</h3>
-					<p className="text-[15px] pt-4 leading-[25px]">
+					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
 						Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
 						videos, Google Maps, and more.
 					</p>
@@ -74,23 +74,25 @@ export default function Features() {
 				<div className="text-center flex flex-col items-center mt-[56px]">
 					<img src={customdomain} className="max-w-[72px]"></img>
 					<h3 className="pt-[48px] text-[18px] font-bold">Custom Domain</h3>
-					<p className="text-[15px] pt-4 leading-[25px]">
+					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
 						With Photosnap subscriptions you can host your stories on your own
 						domain. You can also remove our branding!
 					</p>
 				</div>
 				<div className="text-center flex flex-col items-center mt-[56px]">
 					<img src={boostexpo} className="max-w-[72px]"></img>
-					<h3 className="pt-[48px] text-[18px]">Boost Your Exposure</h3>
-					<p className="text-[15px] pt-4 leading-[25px]">
+					<h3 className="pt-[48px] text-[18px] font-bold">
+						Boost Your Exposure
+					</h3>
+					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
 						Users that viewed your story or gallery can easily get notifed of
 						new and featured stories with our built in mailing list.
 					</p>
 				</div>
 				<div className="text-center flex flex-col items-center mt-[56px]">
 					<img src={dragdrop} className="max-w-[72px]"></img>
-					<h3 className="pt-[48px] text-[18px]">Drag & Drop Image</h3>
-					<p className="text-[15px] pt-4 leading-[25px]">
+					<h3 className="pt-[48px] text-[18px] font-bold">Drag & Drop Image</h3>
+					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
 						Easily drag and drop your image and get beautiful shots everytime.
 						No over the top tooling to add friction to creating stories.
 					</p>
