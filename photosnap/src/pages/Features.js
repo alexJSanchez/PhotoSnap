@@ -3,6 +3,7 @@ import responsive from "../assets/features/desktop/responsive.svg";
 import infinite from "../assets/features/desktop/no-limit.svg";
 import bullhorn from "../assets/features/desktop/embed.svg";
 import hero from "../assets/features/mobile/hero.jpg";
+import heromid from "../assets/features/desktop/hero.jpg";
 import create_and_share_mid from "../assets/home/tablet/create-and-share.jpg";
 import arrow from "../assets/shared/desktop/arrow.svg";
 export default function Features() {
@@ -18,8 +19,8 @@ export default function Features() {
 					/>
 					<img
 						id="main-card-top-image "
-						className="w-full mobile:hidden tablet:block "
-						src={create_and_share_mid}
+						className="w-full mobile:hidden tablet:block"
+						src={heromid}
 						alt="man on mountain"
 					/>
 				</div>
