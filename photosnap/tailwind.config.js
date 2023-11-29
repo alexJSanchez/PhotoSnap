@@ -43,6 +43,7 @@ module.exports = {
 				dreams: "url('./assets/stories/mobile/land-of-dreams.jpg')",
 				dreamsmid: "url('./assets/stories/desktop/land-of-dreams.jpg')",
 				sand: "url('./assets/shared/mobile/bg-beta.jpg')",
+				sandmid: "url('./assets/shared/tablet/bg-beta.jpg')",
 				heromid: "url('./assets/features/desktop/hero.jpg')",
 			},
 			fontSize: {

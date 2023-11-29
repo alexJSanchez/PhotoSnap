@@ -23,12 +23,12 @@ export default function Features() {
 				<div className="main-card-bottom-boommark tablet:hidden"></div>
 				<div
 					id="main-card-bottom"
-					className="px-[18px] py-[155px] text-white bg-black "
+					className="tablet:px-[54px] tablet:py-[173px] px-[29px] py-[72px] text-white bg-black "
 				>
 					<h2 className="text-white text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 						FEATURES
 					</h2>
-					<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-white font-[15px] leading-[25px] opacity-[0.6]">
+					<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] text-white text-[15px] leading-[25px] opacity-[0.6]">
 						We make sure all of our features are designed to be loved by every
 						aspiring and even professional photograpers who wanted to share
 						their stories.
@@ -41,11 +41,11 @@ export default function Features() {
 					alt="man on mountain"
 				/>
 			</div>
-			<div className="tablet:grid tablet:grid-cols-2 tablet:items-end justify-center px-[39px] py-[112px] tablet:gap-[11px] content-center">
+			<div className="tablet:grid tablet:grid-cols-2 tablet:items-end justify-center px-[39px] pb-[91px] pt-[64px] tablet:py-[112px] tablet:gap-[11px] content-center">
 				<div className="text-center flex flex-col items-center tablet:mt-[56px] ">
 					<img src={responsive} className="max-w-[72px]"></img>
 					<h3 className="pt-[48px] font-bold text-[18px]">100% Responsive</h3>
-					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
+					<p className="text-[15px] pt-4 leading-[25px] opacity-60">
 						No matter which the device you’re on, our site is fully responsive
 						and stories look beautiful on any screen.
 					</p>
@@ -55,7 +55,7 @@ export default function Features() {
 					<h3 className="pt-[66px] text-[18px] font-bold ">
 						No Photo Upload Limit
 					</h3>
-					<p className="text-[15px] pt-4 leading-[25px]">
+					<p className="text-[15px] pt-4 leading-[25px] opacity-60">
 						Our tool has no limits on uploads or bandwidth. Freely upload in
 						bulk and share all of your stories in one go.
 					</p>
@@ -65,7 +65,7 @@ export default function Features() {
 					<h3 className="pt-[48px] text-[18px] font-bold leading-[25px]">
 						Available to Embed
 					</h3>
-					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
+					<p className="text-[15px] pt-4 leading-[25px] opacity-60">
 						Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
 						videos, Google Maps, and more.
 					</p>
@@ -73,7 +73,7 @@ export default function Features() {
 				<div className="text-center flex flex-col items-center mt-[56px]">
 					<img src={customdomain} className="max-w-[72px]"></img>
 					<h3 className="pt-[48px] text-[18px] font-bold">Custom Domain</h3>
-					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
+					<p className="text-[15px] pt-4 leading-[25px] opacity-60">
 						With Photosnap subscriptions you can host your stories on your own
 						domain. You can also remove our branding!
 					</p>
@@ -83,7 +83,7 @@ export default function Features() {
 					<h3 className="pt-[48px] text-[18px] font-bold">
 						Boost Your Exposure
 					</h3>
-					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
+					<p className="text-[15px] pt-4 leading-[25px] opacity-60">
 						Users that viewed your story or gallery can easily get notifed of
 						new and featured stories with our built in mailing list.
 					</p>
@@ -91,13 +91,13 @@ export default function Features() {
 				<div className="text-center flex flex-col items-center mt-[56px]">
 					<img src={dragdrop} className="max-w-[72px]"></img>
 					<h3 className="pt-[48px] text-[18px] font-bold">Drag & Drop Image</h3>
-					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
+					<p className="text-[15px] pt-4 leading-[25px] opacity-60">
 						Easily drag and drop your image and get beautiful shots everytime.
 						No over the top tooling to add friction to creating stories.
 					</p>
 				</div>
 			</div>
-			<div className="bg-sand py-[64px] px-[33px] text-white">
+			<div className="bg-sand tablet:bg-sandmid py-[64px] px-[33px] text-white bg-no-repeat bg-cover">
 				<h2 className="text-[32px] font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px]">
 					We’re in beta. Get your invite today!
 				</h2>
