@@ -2,6 +2,9 @@ import React from "react";
 import responsive from "../assets/features/desktop/responsive.svg";
 import infinite from "../assets/features/desktop/no-limit.svg";
 import bullhorn from "../assets/features/desktop/embed.svg";
+import customdomain from "../assets/features/desktop/custom-domain.svg";
+import boostexpo from "../assets/features/desktop/boost-exposure.svg";
+import dragdrop from "../assets/features/desktop/drag-drop.svg";
 import hero from "../assets/features/mobile/hero.jpg";
 import heromid from "../assets/features/desktop/hero.jpg";
 import create_and_share_mid from "../assets/home/tablet/create-and-share.jpg";
@@ -39,29 +42,57 @@ export default function Features() {
 					</p>
 				</div>
 			</div>
-			<div className="pb-[5rem] px-[2rem] tablet:pt-[50px] tablet:px-[150px]">
-				<div className="card-details">
-					<img src={responsive}></img>
-					<h3 className="heading">100% Responsive</h3>
-					<p className="para">
+			<div className="tablet:grid tablet:grid-cols-2 tablet:items-center justify-center px-[39px] py-[112px] tablet:gap-[11px] content-center">
+				<div className="text-center flex flex-col items-center ">
+					<img src={responsive} className="max-w-[72px]"></img>
+					<h3 className="pt-[48px] font-bold text-[18px]">100% Responsive</h3>
+					<p className="text-[15px] pt-4 leading-[25px] opacity-[.60]">
 						No matter which the device you’re on, our site is fully responsive
 						and stories look beautiful on any screen.
 					</p>
 				</div>
-				<div className="card-details">
-					<img src={infinite}></img>
-					<h3 className="heading">No Photo Upload Limit</h3>
-					<p className="para">
+				<div className="text-center flex flex-col items-center mt-[56px]">
+					<img src={infinite} className="max-w-[72px]"></img>
+					<h3 className="pt-[66px] text-[18px] font-bold tablet:pt-[85px]">
+						No Photo Upload Limit
+					</h3>
+					<p className="text-[15px] pt-4 leading-[25px]">
 						Our tool has no limits on uploads or bandwidth. Freely upload in
 						bulk and share all of your stories in one go.
 					</p>
 				</div>
-				<div className="card-details">
-					<img src={bullhorn}></img>
-					<h3 className="heading">Available to Embed</h3>
-					<p className="para">
+				<div className="text-center flex flex-col items-center mt-[56px]">
+					<img src={bullhorn} className="max-w-[72px]"></img>
+					<h3 className="pt-[48px] text-[18px] font-bold leading-[25px]">
+						Available to Embed
+					</h3>
+					<p className="text-[15px] pt-4 leading-[25px]">
 						Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
 						videos, Google Maps, and more.
+					</p>
+				</div>
+				<div className="text-center flex flex-col items-center mt-[56px]">
+					<img src={customdomain} className="max-w-[72px]"></img>
+					<h3 className="pt-[48px] text-[18px] font-bold">Custom Domain</h3>
+					<p className="text-[15px] pt-4 leading-[25px]">
+						With Photosnap subscriptions you can host your stories on your own
+						domain. You can also remove our branding!
+					</p>
+				</div>
+				<div className="text-center flex flex-col items-center mt-[56px]">
+					<img src={boostexpo} className="max-w-[72px]"></img>
+					<h3 className="pt-[48px] text-[18px]">Boost Your Exposure</h3>
+					<p className="text-[15px] pt-4 leading-[25px]">
+						Users that viewed your story or gallery can easily get notifed of
+						new and featured stories with our built in mailing list.
+					</p>
+				</div>
+				<div className="text-center flex flex-col items-center mt-[56px]">
+					<img src={dragdrop} className="max-w-[72px]"></img>
+					<h3 className="pt-[48px] text-[18px]">Drag & Drop Image</h3>
+					<p className="text-[15px] pt-4 leading-[25px]">
+						Easily drag and drop your image and get beautiful shots everytime.
+						No over the top tooling to add friction to creating stories.
 					</p>
 				</div>
 			</div>
