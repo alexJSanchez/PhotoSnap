@@ -8,7 +8,7 @@ export default function Pricing() {
 				<img
 					id="main-card-top-image "
 					className="w-full tablet:hidden"
-					src={hero}
+					src={dusk}
 					alt="man on mountain"
 				/>
 
@@ -18,18 +18,18 @@ export default function Pricing() {
 					className="tablet:px-[54px] tablet:py-[173px] px-[29px] py-[72px] text-white bg-black "
 				>
 					<h2 className="text-white text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
-						FEATURES
+						PRICING
 					</h2>
 					<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] text-white text-[15px] leading-[25px] opacity-[0.6]">
-						We make sure all of our features are designed to be loved by every
-						aspiring and even professional photograpers who wanted to share
-						their stories.
+						Create a your stories, Photosnap is a platform for photographers and
+						visual storytellers. It’s the simple way to create and share your
+						photos.
 					</p>
 				</div>
 				<img
 					id="main-card-top-image "
 					className="hidden tablet:block"
-					src={heromid}
+					src={duskmid}
 					alt="man on mountain"
 				/>
 			</div>
