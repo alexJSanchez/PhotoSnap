@@ -6,31 +6,24 @@ import customdomain from "../assets/features/desktop/custom-domain.svg";
 import boostexpo from "../assets/features/desktop/boost-exposure.svg";
 import dragdrop from "../assets/features/desktop/drag-drop.svg";
 import hero from "../assets/features/mobile/hero.jpg";
-import heromid from "../assets/features/desktop/hero.jpg";
+import heromid from "../assets/features/tablet/hero.jpg";
 import create_and_share_mid from "../assets/home/tablet/create-and-share.jpg";
 import arrow from "../assets/shared/desktop/arrow.svg";
 export default function Features() {
 	return (
 		<div>
-			<div id="main-card" className="bg-black tablet:grid tablet:grid-cols-3">
-				<div id="main-card-top" className="tablet:col-start-3">
-					<img
-						id="main-card-top-image "
-						className="w-full tablet:hidden"
-						src={hero}
-						alt="man on mountain"
-					/>
-					<img
-						id="main-card-top-image "
-						className="w-full mobile:hidden tablet:block"
-						src={heromid}
-						alt="man on mountain"
-					/>
-				</div>
+			<div id="main-card" className="bg-black tablet:flex">
+				<img
+					id="main-card-top-image "
+					className="w-full tablet:hidden"
+					src={hero}
+					alt="man on mountain"
+				/>
+
 				<div className="main-card-bottom-boommark tablet:hidden"></div>
 				<div
 					id="main-card-bottom"
-					className="tablet:flex tablet:flex-col px-[18px] tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3  text-white bg-black py-[72px] tablet:px-[58px]"
+					className="px-[18px] py-[155px] text-white bg-black "
 				>
 					<h2 className="text-white text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 						FEATURES
@@ -41,6 +34,12 @@ export default function Features() {
 						their stories.
 					</p>
 				</div>
+				<img
+					id="main-card-top-image "
+					className="hidden tablet:block"
+					src={heromid}
+					alt="man on mountain"
+				/>
 			</div>
 			<div className="tablet:grid tablet:grid-cols-2 tablet:items-end justify-center px-[39px] py-[112px] tablet:gap-[11px] content-center">
 				<div className="text-center flex flex-col items-center tablet:mt-[56px] ">
