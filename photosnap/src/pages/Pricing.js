@@ -78,33 +78,33 @@ export default function Pricing() {
 						pick plan
 					</button>
 				</div>
-				<div className="tablet:grid grid-cols-4 grid-row-4 text-center tablet:text-left text-white bg-black my-6  pt-[48px] pb-[40px] px-[22px]">
-					<div className="col-start-1 col-end-3 row-start-1 row-end-2 ">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left text-white bg-black my-6  pt-[48px] pb-[40px] px-[22px] tablet:px-[40px]">
+					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 tablet:row-end-2 ">
 						<h3 className="text-[24px] font-bold leading-[25px]">Pro</h3>
 						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
 							More advanced features available. Recommended for photography
 							veterans and professionals.
 						</p>
 					</div>
-					<div className="col-start-4 row-start-1 row-end-1 tablet:text-right">
+					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] pt-0">
 							$39.00
 						</p>
 						<p className="text-[15px] leading-[25px] opacity-60 ">per month</p>
 					</div>
-					<button className="row-start-3 col-start-1 col-end-3 text-[12px] uppercase tracking-[2px] font-bold bg-white text-black mt-[52px] w-full py-[12px]">
+					<button className="tablet:row-start-3 tablet:col-start-1 tablet:col-end-3 text-[12px] uppercase tracking-[2px] font-bold bg-white text-black mt-[52px] w-full py-[12px]">
 						pick plan
 					</button>
 				</div>
-				<div className="tablet:grid grid-cols-4 grid-row-4 text-center tablet:text-left bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px]">
-					<div className="col-start-1 col-end-3 row-start-1 row-end-2">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px]">
+					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 tablet:row-end-2">
 						<h3 className="text-[24px] font-bold leading-[25px]">Business</h3>
 						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
 							Additional features available such as more detailed metrics.
 							Recommended for business owners.
 						</p>
 					</div>
-					<div className="col-start-4 row-start-1 row-end-1 tablet:text-right">
+					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-0">
 							$99.00
 						</p>
