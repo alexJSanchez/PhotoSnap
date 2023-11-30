@@ -123,7 +123,7 @@ export default function Pricing() {
 					</button>
 				</div>
 			</div>
-			<div className="mx-[28px] mb-[64px]">
+			<div className="tablet:hidden mx-[28px] mb-[64px]">
 				<p className="text-[12px] font-bold tracking-[2px] uppercase">
 					THE FEATURES
 				</p>
@@ -311,6 +311,28 @@ export default function Pricing() {
 				</div>
 				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
 			</div>
+			<div>
+				<h3 className="text-[40px] font-bold tracking-[4.167px] leading-[48px]">
+					COMPARE
+				</h3>
+				<div className="mx-[40px]">
+					<div className="grid grid-cols-5 grid-rows-1 ">
+						<p className="col-start-1 col-end-3 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+							THE FEATURES
+						</p>
+
+						<p className="col-start-2 col-end-3 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+							BASIC
+						</p>
+						<p className="col-start-4 col-end-5 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+							PRO
+						</p>
+						<p className="col-start-5 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+							BUSINESS
+						</p>
+					</div>
+				</div>
+			</div>
 			<div className="bg-sand tablet:bg-sandmid py-[64px] px-[33px] text-white bg-no-repeat bg-cover">
 				<h2 className="text-[32px] font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px]">
 					We’re in beta. Get your invite today!
@@ -324,4 +346,15 @@ export default function Pricing() {
 			</div>
 		</div>
 	);
+}
+{
+	/* <div className="w-full h-[1px] bg-black my-[23px]"></div>
+					<div className="flex justify-between mx-[62px]">
+						<p className="text-[12px] font-bold tracking-[2px] uppercase">
+							UNLIMITED STORY POSTING
+						</p>
+						<img src={checkmark} />
+						<img src={checkmark} />
+						<img src={checkmark} />
+					</div> */
 }
