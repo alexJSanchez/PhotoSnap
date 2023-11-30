@@ -69,8 +69,8 @@ export default function Pricing() {
 					<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px]">
 						$19.00
 					</p>
-					<p className="text-[15px] leading-[25px opacity-60">per month</p>
-					<button className="bg-black text-white mt-[52px] w-full py-[12px]">
+					<p className="text-[15px] leading-[25px] opacity-60">per month</p>
+					<button className="text-[12px] uppercase tracking-[2px] font-bold bg-black text-white mt-[52px] w-full py-[12px]">
 						pick plan
 					</button>
 				</div>
