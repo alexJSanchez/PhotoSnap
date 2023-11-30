@@ -33,12 +33,10 @@ export default function Pricing() {
 					alt="man on mountain"
 				/>
 			</div>
-			<div className="flex justify-center">
-				<div className="container">
-					<input type="checkbox" id="check"></input>
-					<label for="check" className="button"></label>
-				</div>
-			</div>
+			<label class="switch">
+				<input type="checkbox"></input>
+				<span class="slider round"></span>
+			</label>
 		</div>
 	);
 }
