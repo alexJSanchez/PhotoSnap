@@ -152,6 +152,9 @@ export default function Pricing() {
 					</div>
 				</div>
 				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
+				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+					UNLIMITED PHOTO UPLOAD
+				</p>
 				<div className="grid grid-cols-3 pt-[16px]">
 					<div>
 						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
@@ -164,6 +167,96 @@ export default function Pricing() {
 							Pro
 						</h4>
 						<img src={checkmark} className="mt-[8px]" />
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Business
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+				</div>
+				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
+				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+					EMBEDDING CUSTOM CONTENT
+				</p>
+				<div className="grid grid-cols-3 pt-[16px]">
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							BASIC
+						</h4>
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Pro
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Business
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+				</div>
+				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
+				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+					CUSTOMIZE METADATA
+				</p>
+				<div className="grid grid-cols-3 pt-[16px]">
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							BASIC
+						</h4>
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Pro
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Business
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+				</div>
+				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
+				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+					ADVANCED METRICS
+				</p>
+				<div className="grid grid-cols-3 pt-[16px]">
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							BASIC
+						</h4>
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Pro
+						</h4>
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Business
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+				</div>
+				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
+				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+					PHOTO DOWNLOADS
+				</p>
+				<div className="grid grid-cols-3 pt-[16px]">
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							BASIC
+						</h4>
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Pro
+						</h4>
 					</div>
 					<div>
 						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
