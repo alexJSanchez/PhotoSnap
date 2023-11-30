@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import dusk from "../assets/pricing/mobile/hero.jpg";
 import duskmid from "../assets/pricing/tablet/hero.jpg";
 import checkmark from "../assets/pricing/desktop/check.svg";
-
+import arrow from "../assets/shared/desktop/arrow.svg";
 export default function Pricing() {
 	const [discount, setDiscount] = useState(false);
 	return (
@@ -310,6 +310,17 @@ export default function Pricing() {
 					</div>
 				</div>
 				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
+			</div>
+			<div className="bg-sand tablet:bg-sandmid py-[64px] px-[33px] text-white bg-no-repeat bg-cover">
+				<h2 className="text-[32px] font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px]">
+					We’re in beta. Get your invite today!
+				</h2>
+				<div className="btn-two-box">
+					<button className="btn-two-light">
+						GET AN INVITE
+						<img className="arrow-img-light" src={arrow} />
+					</button>
+				</div>
 			</div>
 		</div>
 	);
