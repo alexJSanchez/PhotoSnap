@@ -312,16 +312,15 @@ export default function Pricing() {
 				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
 			</div>
 			<div>
-				<h3 className="text-[40px] font-bold tracking-[4.167px] leading-[48px]">
+				<h3 className="text-[40px] text-center font-bold tracking-[4.167px] leading-[48px]">
 					COMPARE
 				</h3>
 				<div className="mx-[40px]">
-					<div className="grid grid-cols-5 grid-rows-1 ">
-						<p className="col-start-1 col-end-3 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+					<div className="grid grid-cols-5 grid-rows-1 text-center">
+						<p className="col-start-0 col-end-2  row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
 							THE FEATURES
 						</p>
-
-						<p className="col-start-2 col-end-3 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className=" col-start-3 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
 							BASIC
 						</p>
 						<p className="col-start-4 col-end-5 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
@@ -330,6 +329,50 @@ export default function Pricing() {
 						<p className="col-start-5 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
 							BUSINESS
 						</p>
+					</div>
+					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
+					<div className="grid grid-cols-5 grid-rows-1 text-center">
+						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+							UNLIMITED STORY POSTING
+						</p>
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+							<img src={checkmark} />
+						</div>
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+							<img src={checkmark} />
+						</div>
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+							<img src={checkmark} />
+						</div>
+					</div>
+					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
+					<div className="grid grid-cols-5 grid-rows-1 text-center">
+						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+							UNLIMITED PHOTO UPLOAD
+						</p>
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+							<img src={checkmark} />
+						</div>
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+							<img src={checkmark} />
+						</div>
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+							<img src={checkmark} />
+						</div>
+					</div>
+					<div className="grid grid-cols-5 grid-rows-1 text-center">
+						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+							EMBEDDING CUSTOM CONTENT
+						</p>
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+							<img src={checkmark} />
+						</div>
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+							<img src={checkmark} />
+						</div>
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+							<img src={checkmark} />
+						</div>
 					</div>
 				</div>
 			</div>
