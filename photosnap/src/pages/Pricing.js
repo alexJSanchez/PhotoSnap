@@ -70,9 +70,11 @@ export default function Pricing() {
 					</div>
 					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right ">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-[0px]">
-							$19.00
+							{discount ? "$190.00" : "$19.00"}
 						</p>
-						<p className="text-[15px] leading-[25px] opacity-60 ">per month</p>
+						<p className="text-[15px] leading-[25px] opacity-60 ">
+							{discount ? "per year" : "per month"}
+						</p>
 					</div>
 					<button className="row-start-3 col-start-1 col-end-3 text-[12px] uppercase tracking-[2px] font-bold bg-black text-white mt-[52px] w-full py-[12px]">
 						pick plan
@@ -88,9 +90,11 @@ export default function Pricing() {
 					</div>
 					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] pt-0">
-							$39.00
+							$39.00{discount ? "$390.00" : "$39.00"}
 						</p>
-						<p className="text-[15px] leading-[25px] opacity-60 ">per month</p>
+						<p className="text-[15px] leading-[25px] opacity-60 ">
+							{discount ? "per year" : "per month"}
+						</p>
 					</div>
 					<button className="tablet:row-start-3 tablet:col-start-1 tablet:col-end-3 text-[12px] uppercase tracking-[2px] font-bold bg-white text-black mt-[52px] w-full py-[12px]">
 						pick plan
@@ -106,9 +110,11 @@ export default function Pricing() {
 					</div>
 					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-0">
-							$99.00
+							$99.00{discount ? "$990.00" : "$99.00"}
 						</p>
-						<p className="text-[15px] leading-[25px] opacity-60 ">per month</p>
+						<p className="text-[15px] leading-[25px] opacity-60 ">
+							{discount ? "per year" : "per month"}
+						</p>
 					</div>
 					<button className="row-start-3 col-start-1 col-end-3 text-[12px] uppercase tracking-[2px] font-bold bg-black text-white mt-[52px] w-full py-[12px]">
 						pick plan
