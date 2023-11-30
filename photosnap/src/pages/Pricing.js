@@ -123,7 +123,7 @@ export default function Pricing() {
 					</button>
 				</div>
 			</div>
-			<div className="mx-[28px]">
+			<div className="mx-[28px] mb-[64px]">
 				<p className="text-[12px] font-bold tracking-[2px] uppercase">
 					THE FEATURES
 				</p>
@@ -246,6 +246,50 @@ export default function Pricing() {
 				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
 				<p className="text-[12px] font-bold tracking-[2px] uppercase">
 					PHOTO DOWNLOADS
+				</p>
+				<div className="grid grid-cols-3 pt-[16px]">
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							BASIC
+						</h4>
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Pro
+						</h4>
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Business
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+				</div>
+				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
+				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+					SEARCH ENGINE INDEXING
+				</p>
+				<div className="grid grid-cols-3 pt-[16px]">
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							BASIC
+						</h4>
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Pro
+						</h4>
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Business
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+				</div>
+				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
+				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+					CUSTOM ANALYTICS
 				</p>
 				<div className="grid grid-cols-3 pt-[16px]">
 					<div>
