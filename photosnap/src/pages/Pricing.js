@@ -74,6 +74,34 @@ export default function Pricing() {
 						pick plan
 					</button>
 				</div>
+				<div className="text-center text-white bg-black my-6  pt-[48px] pb-[40px] px-[22px]">
+					<h3 className="text-[24px] font-bold leading-[25px]">Pro</h3>
+					<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
+						More advanced features available. Recommended for photography
+						veterans and professionals.
+					</p>
+					<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px]">
+						$39.00
+					</p>
+					<p className="text-[15px] leading-[25px] opacity-60">per month</p>
+					<button className="text-[12px] uppercase tracking-[2px] font-bold bg-white text-black mt-[52px] w-full py-[12px]">
+						pick plan
+					</button>
+				</div>
+				<div className="text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px]">
+					<h3 className="text-[24px] font-bold leading-[25px]">Business</h3>
+					<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
+						Additional features available such as more detailed metrics.
+						Recommended for business owners.
+					</p>
+					<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px]">
+						$99.00
+					</p>
+					<p className="text-[15px] leading-[25px] opacity-60">per month</p>
+					<button className="text-[12px] uppercase tracking-[2px] font-bold bg-black text-white mt-[52px] w-full py-[12px]">
+						pick plan
+					</button>
+				</div>
 			</div>
 		</div>
 	);
