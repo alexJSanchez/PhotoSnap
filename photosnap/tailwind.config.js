@@ -45,6 +45,7 @@ module.exports = {
 				sand: "url('./assets/shared/mobile/bg-beta.jpg')",
 				sandmid: "url('./assets/shared/tablet/bg-beta.jpg')",
 				heromid: "url('./assets/features/desktop/hero.jpg')",
+				checkmark: "url('./assets/pricing/desktop/check.svg')",
 			},
 			fontSize: {
 				head1: [

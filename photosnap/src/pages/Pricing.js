@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import dusk from "../assets/pricing/mobile/hero.jpg";
 import duskmid from "../assets/pricing/tablet/hero.jpg";
+import checkmark from "../assets/pricing/desktop/check.svg";
+
 export default function Pricing() {
 	const [discount, setDiscount] = useState(false);
 	return (
@@ -90,7 +92,7 @@ export default function Pricing() {
 					</div>
 					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] pt-0">
-							$39.00{discount ? "$390.00" : "$39.00"}
+							{discount ? "$390.00" : "$39.00"}
 						</p>
 						<p className="text-[15px] leading-[25px] opacity-60 ">
 							{discount ? "per year" : "per month"}
@@ -110,7 +112,7 @@ export default function Pricing() {
 					</div>
 					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-0">
-							$99.00{discount ? "$990.00" : "$99.00"}
+							{discount ? "$990.00" : "$99.00"}
 						</p>
 						<p className="text-[15px] leading-[25px] opacity-60 ">
 							{discount ? "per year" : "per month"}
@@ -120,6 +122,57 @@ export default function Pricing() {
 						pick plan
 					</button>
 				</div>
+			</div>
+			<div className="mx-[28px]">
+				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+					THE FEATURES
+				</p>
+				<div className="w-full h-[1px] bg-black my-[23px]"></div>
+				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+					UNLIMITED STORY POSTING
+				</p>
+				<div className="grid grid-cols-3 pt-[16px]">
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							BASIC
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Pro
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Business
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+				</div>
+				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
+				<div className="grid grid-cols-3 pt-[16px]">
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							BASIC
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Pro
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+					<div>
+						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+							Business
+						</h4>
+						<img src={checkmark} className="mt-[8px]" />
+					</div>
+				</div>
+				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
 			</div>
 		</div>
 	);
