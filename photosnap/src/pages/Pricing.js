@@ -316,7 +316,7 @@ export default function Pricing() {
 				<h3 className="text-[40px] text-center font-bold tracking-[4.167px] leading-[48px]">
 					COMPARE
 				</h3>
-				<div className="mx-[40px] mt-[64px] pb-[25px]">
+				<div className="mx-[40px] mt-[64px] pb-[25px] tablet:mb-[112px]">
 					<div className="grid grid-cols-5 grid-rows-1 text-center">
 						<p className="col-start-0 col-end-2  row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
 							THE FEATURES
@@ -451,14 +451,15 @@ export default function Pricing() {
 							<img src={checkmark} />
 						</div>
 					</div>
+					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
 				</div>
 			</div>
-			<div className="bg-sand tablet:bg-sandmid py-[64px] px-[33px] flex text-white bg-no-repeat bg-cover">
-				<h2 className="text-[32px] font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px]">
+			<div className="tablet:grid grid-cols-5 bg-sand tablet:bg-sandmid py-[64px] px-[33px] text-white bg-no-repeat bg-cover">
+				<h2 className="text-[32px] col-start-1 col-end-4  font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px] tablet:pb-0">
 					We’re in beta. Get your invite today!
 				</h2>
-				<div className="btn-two-box">
-					<button className="btn-two-light">
+				<div className="btn-two-box col-start-6 flex items-center">
+					<button className="btn-two-light flex items-center">
 						GET AN INVITE
 						<img className="arrow-img-light" src={arrow} />
 					</button>
