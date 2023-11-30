@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import dusk from "../assets/pricing/mobile/hero.jpg";
 import duskmid from "../assets/pricing/tablet/hero.jpg";
 export default function Pricing() {
+	const [discount, setDiscount] = useState(false);
 	return (
 		<div>
 			<div id="main-card" className="bg-black tablet:flex">
@@ -33,10 +34,31 @@ export default function Pricing() {
 					alt="man on mountain"
 				/>
 			</div>
-			<label class="switch">
-				<input type="checkbox"></input>
-				<span class="slider round"></span>
-			</label>
+			<div className="flex justify-center items-center gap-[32px]">
+				{discount ? (
+					<p className="text-[18px] font-bold leading-[25px] opacity-50">
+						Monthly
+					</p>
+				) : (
+					<p className="text-[18px] font-bold leading-[25px]">Monthly</p>
+				)}
+				<label class="switch">
+					<input
+						type="checkbox"
+						onClick={() => {
+							setDiscount(!discount);
+						}}
+					></input>
+					<span class="slider round"></span>
+				</label>
+				{discount ? (
+					<p className="text-[18px] font-bold leading-[25px]">Yearly</p>
+				) : (
+					<p className="text-[18px] font-bold leading-[25px] opacity-50">
+						Yearly
+					</p>
+				)}
+			</div>
 		</div>
 	);
 }
