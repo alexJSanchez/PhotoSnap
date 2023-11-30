@@ -59,18 +59,24 @@ export default function Pricing() {
 					</p>
 				)}
 			</div>
-			<div className="flex flex-col mx-7">
-				<div className="text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px]">
-					<h3 className="text-[24px] font-bold leading-[25px]">Basic</h3>
-					<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
-						Includes basic usage of our platform. Recommended for new and
-						aspiring photographers.
-					</p>
-					<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px]">
-						$19.00
-					</p>
-					<p className="text-[15px] leading-[25px] opacity-60">per month</p>
-					<button className="text-[12px] uppercase tracking-[2px] font-bold bg-black text-white mt-[52px] w-full py-[12px]">
+			<div className="flex flex-col mx-7 mb-[64px]">
+				<div className="tablet:grid grid-cols-4 grid-row-4 text-center tablet:text-left bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px]">
+					<div className="col-start-1 col-end-3 row-start-1 row-end-2 ">
+						<h3 className="text-[24px] font-bold leading-[25px]">Basic</h3>
+						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
+							Includes basic usage of our platform. Recommended for new and
+							aspiring photographers.
+						</p>
+					</div>
+					<div className="col-start-4 row-start-1 row-end-1 ">
+						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-[0px]">
+							$19.00
+						</p>
+						<p className="text-[15px] leading-[25px] opacity-60 tablet:text-right">
+							per month
+						</p>
+					</div>
+					<button className="row-start-3 col-start-1 col-end-3 text-[12px] uppercase tracking-[2px] font-bold bg-black text-white mt-[52px] w-full py-[12px]">
 						pick plan
 					</button>
 				</div>
