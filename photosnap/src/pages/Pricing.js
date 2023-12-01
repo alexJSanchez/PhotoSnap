@@ -61,7 +61,7 @@ export default function Pricing() {
 					</p>
 				)}
 			</div>
-			<div className="flex flex-col mx-7 mb-[64px]">
+			<div className="flex flex-col mx-7 mb-[64px] desktop:grid desktop:grid-cols-3">
 				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 row-end-2">
 						<h3 className="text-[24px] font-bold leading-[25px]">Basic</h3>
@@ -82,7 +82,7 @@ export default function Pricing() {
 						pick plan
 					</button>
 				</div>
-				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left text-white bg-black my-6  pt-[48px] pb-[40px] px-[22px] tablet:px-[40px]">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left text-white bg-black my-6 desktop:my-0  pt-[48px] pb-[40px] px-[22px] tablet:px-[40px]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 tablet:row-end-2 ">
 						<h3 className="text-[24px] font-bold leading-[25px]">Pro</h3>
 						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
