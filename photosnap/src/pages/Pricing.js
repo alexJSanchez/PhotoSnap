@@ -312,7 +312,7 @@ export default function Pricing() {
 				</div>
 				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
 			</div>
-			<div className="hidden tablet:block px-20">
+			<div className="hidden tablet:block px-20 desktop:mx[354px]">
 				<h3 className="text-[40px] text-center font-bold tracking-[4.167px] leading-[48px]">
 					COMPARE
 				</h3>
@@ -454,7 +454,7 @@ export default function Pricing() {
 					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
 				</div>
 			</div>
-			<div className="tablet:grid grid-cols-5 bg-sand tablet:bg-sandmid py-[64px] px-[33px] text-white bg-no-repeat bg-cover">
+			<div className="tablet:grid grid-cols-5 bg-sand tablet:bg-sandmid py-[64px] px-[33px] text-white bg-no-repeat bg-cover desktop:px-[165px]">
 				<h2 className="text-[32px] col-start-1 col-end-4  font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px] tablet:pb-0">
 					We’re in beta. Get your invite today!
 				</h2>
