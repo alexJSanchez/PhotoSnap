@@ -61,8 +61,8 @@ export default function Pricing() {
 					</p>
 				)}
 			</div>
-			<div className="flex flex-col mx-7 mb-[64px] desktop:grid desktop:grid-cols-3">
-				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px]">
+			<div className="flex flex-col mx-7 mb-[64px] desktop:flex-row gap-[30px]">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 row-end-2">
 						<h3 className="text-[24px] font-bold leading-[25px]">Basic</h3>
 						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
@@ -70,8 +70,8 @@ export default function Pricing() {
 							aspiring photographers.
 						</p>
 					</div>
-					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right ">
-						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-[0px]">
+					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center ">
+						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-[0px] ">
 							{discount ? "$190.00" : "$19.00"}
 						</p>
 						<p className="text-[15px] leading-[25px] opacity-60 ">
@@ -82,7 +82,7 @@ export default function Pricing() {
 						pick plan
 					</button>
 				</div>
-				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left text-white bg-black my-6 desktop:my-0  pt-[48px] pb-[40px] px-[22px] tablet:px-[40px]">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center text-white bg-black my-6 desktop:my-0  pt-[48px] desktop:pt-[92px] pb-[40px] desktop:pb-[71px] px-[22px] tablet:px-[40px]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 tablet:row-end-2 ">
 						<h3 className="text-[24px] font-bold leading-[25px]">Pro</h3>
 						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
@@ -90,7 +90,7 @@ export default function Pricing() {
 							veterans and professionals.
 						</p>
 					</div>
-					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right">
+					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] pt-0">
 							{discount ? "$390.00" : "$39.00"}
 						</p>
@@ -102,7 +102,7 @@ export default function Pricing() {
 						pick plan
 					</button>
 				</div>
-				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px]">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 tablet:row-end-2">
 						<h3 className="text-[24px] font-bold leading-[25px]">Business</h3>
 						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
@@ -110,7 +110,7 @@ export default function Pricing() {
 							Recommended for business owners.
 						</p>
 					</div>
-					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right">
+					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-0">
 							{discount ? "$990.00" : "$99.00"}
 						</p>
