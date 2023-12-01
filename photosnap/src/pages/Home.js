@@ -27,9 +27,12 @@ export default function Home() {
 					{/*card one*/}
 					<div
 						id="main-card"
-						className="bg-black tablet:grid tablet:grid-cols-3"
+						className="bg-black tablet:grid tablet:grid-cols-3 desktop:grid-cols-5"
 					>
-						<div id="main-card-top" className="tablet:col-start-3">
+						<div
+							id="main-card-top"
+							className="tablet:col-start-3 desktop:col-start-3 desktop:col-end-6"
+						>
 							<img
 								id="main-card-top-image "
 								className="w-full tablet:hidden"
@@ -44,7 +47,7 @@ export default function Home() {
 							/>
 							<img
 								id="main-card-top-image hidden desktop:block "
-								className="w-full mobile:hidden tablet:block "
+								className="w-full mobile:hidden tablet:block h-full"
 								src={create_and_share_desk}
 								alt="man on mountain"
 							/>
@@ -52,7 +55,7 @@ export default function Home() {
 						<div className="main-card-bottom-boommark tablet:hidden"></div>
 						<div
 							id="main-card-bottom"
-							className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[58px] desktop:py-[173px] desktop:px-[111px]"
+							className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[58px] desktop:px-[100px] "
 						>
 							<h2 className="text-white text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 								Create and share your photo Stories.
