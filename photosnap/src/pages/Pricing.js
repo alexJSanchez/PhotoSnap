@@ -70,7 +70,7 @@ export default function Pricing() {
 							aspiring photographers.
 						</p>
 					</div>
-					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center ">
+					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center desktop:pt-[40px] ">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-[0px] ">
 							{discount ? "$190.00" : "$19.00"}
 						</p>
@@ -110,7 +110,7 @@ export default function Pricing() {
 							Recommended for business owners.
 						</p>
 					</div>
-					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center">
+					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center desktop:pt-[40px] ">
 						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-0">
 							{discount ? "$990.00" : "$99.00"}
 						</p>
@@ -124,7 +124,7 @@ export default function Pricing() {
 				</div>
 			</div>
 			{/* {compare section} */}
-			<div className="tablet:hidden mx-[28px] mb-[64px]">
+			<div className="tablet:hidden  mb-[64px]">
 				<p className="text-[12px] font-bold tracking-[2px] uppercase">
 					THE FEATURES
 				</p>
@@ -312,7 +312,7 @@ export default function Pricing() {
 				</div>
 				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
 			</div>
-			<div className="hidden tablet:block ">
+			<div className="hidden tablet:block px-20">
 				<h3 className="text-[40px] text-center font-bold tracking-[4.167px] leading-[48px]">
 					COMPARE
 				</h3>
