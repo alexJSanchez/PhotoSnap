@@ -140,7 +140,7 @@ export default function Home() {
 					</div>
 
 					{/*sub cards*/}
-					<div className="tablet:grid tablet:grid-cols-2">
+					<div className="tablet:grid tablet:grid-cols-2 desktop:grid-cols-4">
 						{/*one*/}
 						<div className="relative">
 							<img src={mountain} className="w-full tablet:hidden"></img>
