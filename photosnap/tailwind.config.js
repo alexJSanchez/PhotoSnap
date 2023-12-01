@@ -5,6 +5,7 @@ module.exports = {
 		screens: {
 			mobile: "0px",
 			tablet: "768px",
+			desktop: "1440px",
 		},
 		extend: {
 			backgroundImage: {

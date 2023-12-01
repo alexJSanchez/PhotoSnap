@@ -45,12 +45,12 @@ export default function Home() {
 						<div className="main-card-bottom-boommark tablet:hidden"></div>
 						<div
 							id="main-card-bottom"
-							className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3  text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[58px]"
+							className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[58px] desktop:py-[173px] desktop:px-[111px]"
 						>
 							<h2 className="text-white text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 								Create and share your photo Stories.
 							</h2>
-							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-white font-[15px] leading-[25px] opacity-[0.6]">
+							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-white text-[15px] leading-[25px] opacity-[0.6]">
 								Photosnap is a platform for photographers and visual
 								storytellers. We make it easy to share photos, tell stories and
 								connect with others.
