@@ -9,6 +9,7 @@ import beautiful_stories_mid from "../assets/home/tablet/beautiful-stories.jpg";
 import beautiful_stories_desk from "../assets/home/desktop/beautiful-stories.jpg";
 import designed_for_everyone from "../assets/home/mobile/designed-for-everyone.jpg";
 import designed_for_everyone_mid from "../assets/home/tablet/designed-for-everyone.jpg";
+import designed_for_everyone_desk from "../assets/home/desktop/designed-for-everyone.jpg";
 import responsive from "../assets/features/desktop/responsive.svg";
 import infinite from "../assets/features/desktop/no-limit.svg";
 import bullhorn from "../assets/features/desktop/embed.svg";
@@ -104,18 +105,23 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<div className="bg-white tablet:grid tablet:grid-cols-3">
-						<div className="tablet:col-start-3">
+					{/*card three*/}
+					<div className="bg-white tablet:grid tablet:grid-cols-3 desktop:grid-cols-5">
+						<div className="tablet:col-start-3 desktop:col-start-3 desktop:col-end-6">
 							<img
 								className="w-full tablet:hidden"
 								src={designed_for_everyone}
 							/>
 							<img
-								className="w-full hidden tablet:block"
+								className="w-full hidden tablet:block desktop:hidden"
 								src={designed_for_everyone_mid}
 							/>
+							<img
+								className="w-full hidden desktop:block"
+								src={designed_for_everyone_desk}
+							/>
 						</div>
-						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px]">
+						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px] desktop:px-[100px]">
 							<h2 className="pr-[3.5rem] text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 								DESIGNED FOR EVERYONE
 							</h2>
@@ -132,7 +138,6 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					{/*card three*/}
 
 					{/*sub cards*/}
 					<div className="tablet:grid tablet:grid-cols-2">
