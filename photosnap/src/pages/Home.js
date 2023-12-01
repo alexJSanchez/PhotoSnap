@@ -221,7 +221,7 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<div className="pb-[5rem] px-[2rem] tablet:pt-[50px] tablet:px-[150px] flex items-end">
+					<div className="pb-[5rem] px-[2rem] tablet:pt-[50px] desktop:py-[120px] tablet:px-[150px] flex items-end">
 						<div className="flex flex-col justify-center items-center">
 							<img src={responsive}></img>
 							<h3 className="text-black text-center text-[18px] font-bold leading-[25px] pt-[3rem] pb-4">
