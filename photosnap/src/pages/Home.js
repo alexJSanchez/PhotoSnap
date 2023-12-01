@@ -6,6 +6,7 @@ import create_and_share_desk from "../assets/home/desktop/create-and-share.jpg";
 import arrow from "../assets/shared/desktop/arrow.svg";
 import beautiful_stories from "../assets/home/mobile/beautiful-stories.jpg";
 import beautiful_stories_mid from "../assets/home/tablet/beautiful-stories.jpg";
+import beautiful_stories_desk from "../assets/home/desktop/beautiful-stories.jpg";
 import designed_for_everyone from "../assets/home/mobile/designed-for-everyone.jpg";
 import designed_for_everyone_mid from "../assets/home/tablet/designed-for-everyone.jpg";
 import responsive from "../assets/features/desktop/responsive.svg";
@@ -74,15 +75,19 @@ export default function Home() {
 						</div>
 					</div>
 					{/*card two*/}
-					<div className="bg-white tablet:grid tablet:grid-cols-3">
-						<div className="tablet:col-start-1">
+					<div className="bg-white tablet:grid tablet:grid-cols-3 desktop:grid-cols-5">
+						<div className="tablet:col-start-1 desktop:col-end-4">
 							<img className="w-full tablet:hidden" src={beautiful_stories} />
 							<img
-								className="w-full hidden tablet:block"
+								className="w-full hidden tablet:block desktop:hidden"
 								src={beautiful_stories_mid}
 							/>
+							<img
+								className="w-full hidden desktop:block"
+								src={beautiful_stories_desk}
+							/>
 						</div>
-						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 tablet:row-start-1 tablet:col-end-4 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px]">
+						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 desktop:col-start-4 tablet:row-start-1 tablet:col-end-6 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px] desktop:px-[80px]">
 							<h2 className="pr-[3.5rem] text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tablet:pr-[100px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
 								BEAUTIFUL STORIES EVERY TIME
 							</h2>
