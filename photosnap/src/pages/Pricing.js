@@ -63,7 +63,7 @@ export default function Pricing() {
 			</div>
 			<div className="flex flex-col items-center justify-center mx-7 mb-[64px] desktop:flex-row gap-[30px]">
 				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px] desktop:max-w-[350px]">
-					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 row-end-2">
+					<div className="tablet:col-start-1 tablet:col-end-2 tablet:row-start-1 row-end-2">
 						<h3 className="text-[24px] font-bold leading-[25px]">Basic</h3>
 						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
 							Includes basic usage of our platform. Recommended for new and
@@ -455,7 +455,7 @@ export default function Pricing() {
 				</div>
 			</div>
 			<div className="tablet:grid grid-cols-5 bg-sand tablet:bg-sandmid py-[64px] px-[33px] text-white bg-no-repeat bg-cover desktop:px-[165px]">
-				<h2 className="text-[32px] col-start-1 col-end-4  font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px] tablet:pb-0">
+				<h2 className="text-[32px] col-start-1 col-end-4 desktop:col-end-3 pr-4 font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px] tablet:pb-0">
 					We’re in beta. Get your invite today!
 				</h2>
 				<div className="btn-two-box col-start-6 flex items-center">
