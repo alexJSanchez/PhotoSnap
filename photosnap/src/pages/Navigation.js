@@ -7,24 +7,30 @@ export default function Navigation() {
 	const [dropdown, SetDropdown] = useState(false);
 	return (
 		<nav className="dropdown">
-			<div className="bg-white flex justify-between mt-[1.7rem] mr-[1.5rem] mb-[1.7rem] ml-[1rem]">
+			<div className="bg-white flex justify-between tablet:justify-evenly items-center mt-[1.7rem] mr-[1.5rem] tablet:mr-0 mb-[1.7rem] ml-[1rem] tablet:ml-0">
 				<div className="nav-left">
 					<img src={logo} />
 				</div>
-				<div className="tablet:flex hidden ">
-					<Link to="/">
-						<h2>Home</h2>
-					</Link>
-					<Link to="stories">
-						<h2>Stories</h2>
-					</Link>
-					<Link to="features">
-						<h2>Features</h2>
-					</Link>
-					<Link to="pricing">
-						<h2>Pricing</h2>
-					</Link>
-				</div>
+
+				<Link
+					to="stories"
+					className="hidden tablet:block text-[12px] font-bold tracking-[2px] uppercase"
+				>
+					<h2>Stories</h2>
+				</Link>
+				<Link
+					to="features"
+					className="hidden tablet:block text-[12px] font-bold tracking-[2px] uppercase"
+				>
+					<h2>Features</h2>
+				</Link>
+				<Link
+					to="pricing"
+					className="hidden tablet:block text-[12px] font-bold tracking-[2px] uppercase"
+				>
+					<h2>Pricing</h2>
+				</Link>
+
 				<div className="tablet:hidden flex justify-center items-center">
 					<img
 						className="link"
@@ -35,7 +41,7 @@ export default function Navigation() {
 						alt="dropdown hamburger button"
 					/>
 				</div>
-				<button className="py-3 px-6 text-white text-[12px] font-bold tracking-[2px] bg-black uppercase">
+				<button className="hidden tablet:block py-3 px-6 text-white text-[12px] font-bold tracking-[2px] bg-black uppercase">
 					Get An Invite
 				</button>
 			</div>
