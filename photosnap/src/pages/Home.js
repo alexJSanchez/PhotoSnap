@@ -221,27 +221,33 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<div className="pb-[5rem] px-[2rem] tablet:pt-[50px] tablet:px-[150px]">
-						<div className="card-details">
+					<div className="pb-[5rem] px-[2rem] tablet:pt-[50px] tablet:px-[150px] flex items-end">
+						<div className="flex flex-col justify-center items-center">
 							<img src={responsive}></img>
-							<h3 className="heading">100% Responsive</h3>
-							<p className="para">
+							<h3 className="text-black text-center text-[18px] font-bold leading-[25px] pt-[3rem] pb-4">
+								100% Responsive
+							</h3>
+							<p className="text-black text-center text-[15px] leading-[25px] opacity-60 desktop:px-6 ">
 								No matter which the device you’re on, our site is fully
 								responsive and stories look beautiful on any screen.
 							</p>
 						</div>
-						<div className="card-details">
+						<div className="flex flex-col justify-center items-center">
 							<img src={infinite}></img>
-							<h3 className="heading">No Photo Upload Limit</h3>
-							<p className="para">
+							<h3 className="text-black text-center text-[18px] font-bold leading-[25px] pt-[3rem] desktop:pt-[66px] pb-4">
+								No Photo Upload Limit
+							</h3>
+							<p className="text-black text-center text-[15px] leading-[25px] opacity-60 desktop:px-6">
 								Our tool has no limits on uploads or bandwidth. Freely upload in
 								bulk and share all of your stories in one go.
 							</p>
 						</div>
-						<div className="card-details">
+						<div className="flex flex-col justify-center items-center">
 							<img src={bullhorn}></img>
-							<h3 className="heading">Available to Embed</h3>
-							<p className="para">
+							<h3 className="text-black text-center text-[18px] font-bold leading-[25px] pt-[3rem] pb-4">
+								Available to Embed
+							</h3>
+							<p className="text-black text-center text-[15px] leading-[25px] opacity-60 desktop:mb-[25px]">
 								Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
 								videos, Google Maps, and more.
 							</p>
