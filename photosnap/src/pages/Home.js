@@ -43,13 +43,13 @@ export default function Home() {
 							/>
 							<img
 								id="main-card-top-image "
-								className="w-full mobile:hidden tablet:block desktop:hidden "
+								className="w-full mobile:hidden tablet:block desktop:hidden"
 								src={create_and_share_mid}
 								alt="man on mountain"
 							/>
 							<img
 								id="main-card-top-image hidden desktop:block "
-								className="w-full mobile:hidden tablet:block h-full"
+								className="w-full mobile:hidden desktop:block"
 								src={create_and_share_desk}
 								alt="man on mountain"
 							/>
@@ -221,8 +221,8 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<div className="pb-[5rem] px-[2rem] tablet:pt-[50px] desktop:py-[120px] tablet:px-[150px] flex items-end">
-						<div className="flex flex-col justify-center items-center">
+					<div className="pb-[5rem] px-[2rem] tablet:pt-[50px] pt-[80px] desktop:py-[120px] tablet:px-[150px] desktop:flex desktop:items-end">
+						<div className="flex flex-col justify-center items-center ">
 							<img src={responsive}></img>
 							<h3 className="text-black text-center text-[18px] font-bold leading-[25px] pt-[3rem] pb-4">
 								100% Responsive
@@ -232,7 +232,7 @@ export default function Home() {
 								responsive and stories look beautiful on any screen.
 							</p>
 						</div>
-						<div className="flex flex-col justify-center items-center">
+						<div className="flex flex-col justify-center items-center pt-[56px] desktop:pt-0">
 							<img src={infinite}></img>
 							<h3 className="text-black text-center text-[18px] font-bold leading-[25px] pt-[3rem] desktop:pt-[66px] pb-4">
 								No Photo Upload Limit
@@ -242,7 +242,7 @@ export default function Home() {
 								bulk and share all of your stories in one go.
 							</p>
 						</div>
-						<div className="flex flex-col justify-center items-center">
+						<div className="flex flex-col justify-center items-center pt-[56px] desktop:pt-0">
 							<img src={bullhorn}></img>
 							<h3 className="text-black text-center text-[18px] font-bold leading-[25px] pt-[3rem] pb-4">
 								Available to Embed
