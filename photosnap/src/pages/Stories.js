@@ -21,7 +21,7 @@ export default function Stories() {
 					className="tablet:hidden w-full"
 					alt="full moon in appalacia mountains"
 				/>
-				<div className="tablet:bg-moonmid bg-center bg-no-repeat bg-cover text-white bg-black py-[48px] px-[28px] tablet:py-[122px]">
+				<div className="tablet:bg-moonmid bg-center bg-no-repeat bg-cover text-white bg-black py-[48px] px-[28px] desktop:px-[112px] tablet:py-[122px]">
 					<h4 className="text-[12px] font-[700] tracking-[2px]">
 						LAST MONTH’S FEATURED STORY
 					</h4>
