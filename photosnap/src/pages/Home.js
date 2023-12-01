@@ -2,6 +2,7 @@ import React from "react";
 
 import create_and_share from "../assets/home/mobile/create-and-share.jpg";
 import create_and_share_mid from "../assets/home/tablet/create-and-share.jpg";
+import create_and_share_desk from "../assets/home/desktop/create-and-share.jpg";
 import arrow from "../assets/shared/desktop/arrow.svg";
 import beautiful_stories from "../assets/home/mobile/beautiful-stories.jpg";
 import beautiful_stories_mid from "../assets/home/tablet/beautiful-stories.jpg";
@@ -37,8 +38,14 @@ export default function Home() {
 							/>
 							<img
 								id="main-card-top-image "
-								className="w-full mobile:hidden tablet:block "
+								className="w-full mobile:hidden tablet:block desktop:hidden "
 								src={create_and_share_mid}
+								alt="man on mountain"
+							/>
+							<img
+								id="main-card-top-image hidden desktop:block "
+								className="w-full mobile:hidden tablet:block "
+								src={create_and_share_desk}
 								alt="man on mountain"
 							/>
 						</div>
