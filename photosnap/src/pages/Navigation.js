@@ -11,7 +11,21 @@ export default function Navigation() {
 				<div className="nav-left">
 					<img src={logo} />
 				</div>
-				<div className="flex justify-center items-center">
+				<div>
+					<Link to="/">
+						<h2>Home</h2>
+					</Link>
+					<Link to="stories">
+						<h2>Stories</h2>
+					</Link>
+					<Link to="features">
+						<h2>Features</h2>
+					</Link>
+					<Link to="pricing">
+						<h2>Pricing</h2>
+					</Link>
+				</div>
+				<div className="tablet:hidden flex justify-center items-center">
 					<img
 						className="link"
 						onClick={() => {
@@ -23,7 +37,7 @@ export default function Navigation() {
 				</div>
 			</div>
 			{dropdown ? (
-				<div className="dropdown-menu dropdown-font flex flex-col items-center px-[2rem]">
+				<div className="tablet:hidden dropdown-menu dropdown-font flex flex-col items-center px-[2rem]">
 					<Link to="/">
 						<h2 onClick={() => SetDropdown(!dropdown)}>Home</h2>
 					</Link>
