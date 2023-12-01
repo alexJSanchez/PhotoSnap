@@ -1,40 +1,54 @@
 import React, { useState } from "react";
 import dusk from "../assets/pricing/mobile/hero.jpg";
 import duskmid from "../assets/pricing/tablet/hero.jpg";
+import duskdesk from "../assets/pricing/desktop/hero.jpg";
 import checkmark from "../assets/pricing/desktop/check.svg";
 import arrow from "../assets/shared/desktop/arrow.svg";
 export default function Pricing() {
 	const [discount, setDiscount] = useState(false);
 	return (
 		<div>
-			<div id="main-card" className="bg-black tablet:flex">
-				<img
-					id="main-card-top-image "
-					className="w-full tablet:hidden"
-					src={dusk}
-					alt="man on mountain"
-				/>
-
+			<div
+				id="main-card"
+				className="bg-black tablet:grid tablet:grid-cols-3 desktop:grid-cols-5"
+			>
+				<div
+					id="main-card-top"
+					className="tablet:col-start-3 desktop:col-start-3 desktop:col-end-6"
+				>
+					<img
+						id="main-card-top-image "
+						className="w-full tablet:hidden"
+						src={dusk}
+						alt="man on mountain"
+					/>
+					<img
+						id="main-card-top-image "
+						className="w-full mobile:hidden tablet:block desktop:hidden"
+						src={duskmid}
+						alt="man on mountain"
+					/>
+					<img
+						id="main-card-top-image hidden desktop:block "
+						className="w-full mobile:hidden desktop:block"
+						src={duskdesk}
+						alt="man on mountain"
+					/>
+				</div>
 				<div className="main-card-bottom-boommark tablet:hidden"></div>
 				<div
 					id="main-card-bottom"
-					className="tablet:px-[54px] tablet:py-[173px] px-[29px] py-[72px] text-white bg-black "
+					className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[58px] desktop:px-[100px] "
 				>
 					<h2 className="text-white text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
-						PRICING
+						FEATURES
 					</h2>
-					<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] text-white text-[15px] leading-[25px] opacity-[0.6]">
-						Create a your stories, Photosnap is a platform for photographers and
-						visual storytellers. It’s the simple way to create and share your
-						photos.
+					<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-white text-[15px] leading-[25px] opacity-[0.6]">
+						We make sure all of our features are designed to be loved by every
+						aspiring and even professional photograpers who wanted to share
+						their stories.
 					</p>
 				</div>
-				<img
-					id="main-card-top-image "
-					className="hidden tablet:block"
-					src={duskmid}
-					alt="man on mountain"
-				/>
 			</div>
 			<div className="flex justify-center items-center gap-[32px] mt-[64px] mb-[40px]">
 				{discount ? (
@@ -455,7 +469,7 @@ export default function Pricing() {
 				</div>
 			</div>
 			<div className="tablet:grid grid-cols-5 bg-sand tablet:bg-sandmid py-[64px] px-[33px] text-white bg-no-repeat bg-cover desktop:px-[165px]">
-				<h2 className="text-[32px] col-start-1 col-end-4 desktop:col-end-3 pr-4 font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px] tablet:pb-0">
+				<h2 className="text-[32px] col-start-1 col-end-4 desktop:col-end-3 desktop:pr-4 font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px] tablet:pb-0">
 					We’re in beta. Get your invite today!
 				</h2>
 				<div className="btn-two-box col-start-6 flex items-center">
