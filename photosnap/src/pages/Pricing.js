@@ -61,8 +61,8 @@ export default function Pricing() {
 					</p>
 				)}
 			</div>
-			<div className="flex flex-col mx-7 mb-[64px] desktop:flex-row gap-[30px]">
-				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px]">
+			<div className="flex flex-col items-center justify-center mx-7 mb-[64px] desktop:flex-row gap-[30px]">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px] desktop:max-w-[350px]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 row-end-2">
 						<h3 className="text-[24px] font-bold leading-[25px]">Basic</h3>
 						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
@@ -82,16 +82,16 @@ export default function Pricing() {
 						pick plan
 					</button>
 				</div>
-				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center text-white bg-black my-6 desktop:my-0  pt-[48px] desktop:pt-[92px] pb-[40px] desktop:pb-[71px] px-[22px] tablet:px-[40px]">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center text-white bg-black my-6 desktop:my-0  pt-[48px] desktop:pt-[92px] pb-[40px] desktop:pb-[71px] px-[22px] tablet:px-[40px] desktop:max-w-[350px]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 tablet:row-end-2 ">
 						<h3 className="text-[24px] font-bold leading-[25px]">Pro</h3>
-						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
+						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px]">
 							More advanced features available. Recommended for photography
 							veterans and professionals.
 						</p>
 					</div>
 					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center">
-						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] pt-0">
+						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] ">
 							{discount ? "$390.00" : "$39.00"}
 						</p>
 						<p className="text-[15px] leading-[25px] opacity-60 ">
@@ -102,7 +102,7 @@ export default function Pricing() {
 						pick plan
 					</button>
 				</div>
-				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px]">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px] desktop:max-w-[350px]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 tablet:row-end-2">
 						<h3 className="text-[24px] font-bold leading-[25px]">Business</h3>
 						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
