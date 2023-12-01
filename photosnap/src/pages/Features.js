@@ -74,7 +74,7 @@ export default function Features() {
 						bulk and share all of your stories in one go.
 					</p>
 				</div>
-				<div className="text-center flex flex-col items-center mt-[56px]">
+				<div className="text-center flex flex-col items-center mt-[56px] mb-[25px]">
 					<img src={bullhorn} className="max-w-[72px]"></img>
 					<h3 className="pt-[48px] text-[18px] font-bold leading-[25px]">
 						Available to Embed
