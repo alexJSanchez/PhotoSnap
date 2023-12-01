@@ -11,7 +11,7 @@ export default function Navigation() {
 				<div className="nav-left">
 					<img src={logo} />
 				</div>
-				<div>
+				<div className="tablet:flex hidden ">
 					<Link to="/">
 						<h2>Home</h2>
 					</Link>
@@ -35,6 +35,9 @@ export default function Navigation() {
 						alt="dropdown hamburger button"
 					/>
 				</div>
+				<button className="py-3 px-6 text-white text-[12px] font-bold tracking-[2px] bg-black uppercase">
+					Get An Invite
+				</button>
 			</div>
 			{dropdown ? (
 				<div className="tablet:hidden dropdown-menu dropdown-font flex flex-col items-center px-[2rem]">
