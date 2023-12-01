@@ -9,7 +9,10 @@ export default function Navigation() {
 		<nav className="dropdown">
 			<div className="bg-white flex justify-between tablet:justify-evenly items-center mt-[1.7rem] mr-[1.5rem] tablet:mr-0 mb-[1.7rem] ml-[1rem] tablet:ml-0">
 				<div className="nav-left">
-					<img src={logo} />
+					<Link>
+						{" "}
+						<img src={logo} alt="logo" />
+					</Link>
 				</div>
 
 				<Link

@@ -111,14 +111,17 @@ export default function Home() {
 							<img
 								className="w-full tablet:hidden"
 								src={designed_for_everyone}
+								alt="design for everyone"
 							/>
 							<img
 								className="w-full hidden tablet:block desktop:hidden"
 								src={designed_for_everyone_mid}
+								alt="design for everyone"
 							/>
 							<img
 								className="w-full hidden desktop:block"
 								src={designed_for_everyone_desk}
+								alt="design for everyone"
 							/>
 						</div>
 						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px] desktop:px-[100px]">
@@ -143,8 +146,16 @@ export default function Home() {
 					<div className="tablet:grid tablet:grid-cols-2 desktop:grid-cols-4">
 						{/*one*/}
 						<div className="relative">
-							<img src={mountain} className="w-full tablet:hidden"></img>
-							<img src={mountain_mid} className="w-full hidden tablet:block " />
+							<img
+								src={mountain}
+								alt="mountain"
+								className="w-full tablet:hidden"
+							></img>
+							<img
+								src={mountain_mid}
+								alt="mountain"
+								className="w-full hidden tablet:block "
+							/>
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
 								<p className="text-white text-[18px] font-bold leading-[25px]">
 									The Mountains
@@ -154,16 +165,21 @@ export default function Home() {
 								<div className="btn-two-box">
 									<button className="btn-two-light">
 										READ STORY
-										<img className="arrow-img-light" src={arrow} />
+										<img className="arrow-img-light" alt="arrow" src={arrow} />
 									</button>
 								</div>
 							</div>
 						</div>
 						{/*two*/}
 						<div className="relative">
-							<img src={cityscapes} className="w-full tablet:hidden"></img>
+							<img
+								src={cityscapes}
+								alt="city skylines"
+								className="w-full tablet:hidden"
+							></img>
 							<img
 								src={cityscapes_mid}
+								alt="city skylines"
 								className="w-full hidden tablet:block"
 							></img>
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
@@ -175,16 +191,21 @@ export default function Home() {
 								<div className="btn-two-box">
 									<button className="btn-two-light">
 										READ STORY
-										<img className="arrow-img-light" src={arrow} />
+										<img className="arrow-img-light" alt="arrow" src={arrow} />
 									</button>
 								</div>
 							</div>
 						</div>
 						{/*three*/}
 						<div className="relative">
-							<img src={daysvoyage} className="w-full tablet:hidden"></img>
+							<img
+								src={daysvoyage}
+								alt="man walking on voyage"
+								className="w-full tablet:hidden"
+							></img>
 							<img
 								src={daysvoyage_mid}
+								alt="man walking on voyage"
 								className="w-full hidden tablet:block"
 							></img>
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">

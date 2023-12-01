@@ -76,23 +76,6 @@
 	margin: 1rem 0rem 1.25rem 0rem;
 }
 
-.card-details {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-.card-details h3 {
-	color: #000;
-	text-align: center;
-	font-family: DM Sans;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 25px; /* 138.889% */
-	padding: 3rem 0rem 0.875rem 0rem;
-}
-
 .sub-card-title {
 	color: #fff;
 	font-family: DM Sans;

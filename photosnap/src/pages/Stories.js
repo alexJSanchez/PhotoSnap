@@ -16,8 +16,12 @@ export default function Stories() {
 	return (
 		<div>
 			<div>
-				<img src={moon} className="tablet:hidden w-full" />
-				<div className="tablet:bg-moonmid bg-black bg-center bg-no-repeat bg-cover text-white bg-black py-[48px] px-[28px] tablet:py-[122px]">
+				<img
+					src={moon}
+					className="tablet:hidden w-full"
+					alt="full moon in appalacia mountains"
+				/>
+				<div className="tablet:bg-moonmid bg-center bg-no-repeat bg-cover text-white bg-black py-[48px] px-[28px] tablet:py-[122px]">
 					<h4 className="text-[12px] font-[700] tracking-[2px]">
 						LAST MONTH’S FEATURED STORY
 					</h4>
@@ -37,12 +41,12 @@ export default function Stories() {
 					<div className="btn-two-box">
 						<button className="btn-two-light">
 							READ THE STORY
-							<img className="arrow-img-light" src={arrow} />
+							<img className="arrow-img-light" alt="arrow" src={arrow} />
 						</button>
 					</div>
 				</div>
 			</div>
-			<div className="tablet:grid tablet:grid-cols-2">
+			<div className="tablet:grid tablet:grid-cols-2 desktop:grid-cols-4">
 				<div className="background-img-gradient">
 					<div className="bg-mountain tablet:bg-mountainmid bg-center bg-no-repeat bg-cover">
 						<div className="pt-[215px] tablet:pt-[340px]  pb-[40px] px-[41.67px] min-h-[375px] text-white  ">
@@ -55,7 +59,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -73,7 +77,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -91,7 +95,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -109,7 +113,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -127,7 +131,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -145,7 +149,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -163,7 +167,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -181,7 +185,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -199,7 +203,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -217,7 +221,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -235,7 +239,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -253,7 +257,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -271,7 +275,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -289,7 +293,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -307,7 +311,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
@@ -325,7 +329,7 @@ export default function Stories() {
 							<div className="btn-two-box">
 								<button className="btn-two-light ">
 									READ STORY
-									<img className="arrow-img-light" src={arrow} />
+									<img className="arrow-img-light" alt="arrow" src={arrow} />
 								</button>
 							</div>
 						</div>
