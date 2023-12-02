@@ -118,7 +118,7 @@ export default function Pricing() {
 							{discount ? "per year" : "per month"}
 						</p>
 					</div>
-					<button className="tablet:row-start-3 tablet:col-start-1 tablet:col-end-3 text-[0.75rem] uppercase tracking-[0.125rem] font-bold bg-white text-black mt-[3.25rem] w-full py-[0.75rem">
+					<button className="tablet:row-start-3 tablet:col-start-1 tablet:col-end-3 text-[0.75rem] uppercase tracking-[0.125rem] font-bold bg-white text-black mt-[3.25rem] w-full py-[0.75rem]">
 						pick plan
 					</button>
 				</div>
@@ -292,192 +292,192 @@ export default function Pricing() {
 				<p className="text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 					SEARCH ENGINE INDEXING
 				</p>
-				<div className="grid grid-cols-3 pt-[16px]">
+				<div className="grid grid-cols-3 pt-[1rem]">
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							BASIC
 						</h4>
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Pro
 						</h4>
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Business
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 				</div>
-				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
-				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+				<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-10"></div>
+				<p className="text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 					CUSTOM ANALYTICS
 				</p>
-				<div className="grid grid-cols-3 pt-[16px]">
+				<div className="grid grid-cols-3 pt-4">
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							BASIC
 						</h4>
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Pro
 						</h4>
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Business
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 				</div>
-				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
+				<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-10"></div>
 			</div>
-			<div className="hidden tablet:block desktop:mx-[354px]">
-				<h3 className="text-[40px] text-center font-bold tracking-[4.167px] leading-[48px]">
+			<div className="hidden tablet:block desktop:mx-[22.125rem]">
+				<h3 className="text-[2.5rem] text-center font-bold tracking-[0.2604375rem] leading-[3rem]">
 					COMPARE
 				</h3>
-				<div className="mx-[40px] mt-[64px] pb-[25px] tablet:mb-[112px]">
+				<div className="mx-[2.5rem] mt-[4rem] pb-[1.5625rem] tablet:mb-[7rem]">
 					<div className="grid grid-cols-5 grid-rows-1 text-center">
-						<p className="col-start-0 col-end-2  row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-0 col-end-2  row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							THE FEATURES
 						</p>
-						<p className=" col-start-3 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className=" col-start-3 row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							BASIC
 						</p>
-						<p className="col-start-4 col-end-5 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-4 col-end-5 row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							PRO
 						</p>
-						<p className="col-start-5 row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-5 row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							BUSINESS
 						</p>
 					</div>
-					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
+					<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-20"></div>
 					<div className="grid grid-cols-5 grid-rows-1 text-center">
-						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-1 col-end-3 pl-[0.9375rem] text-left row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							UNLIMITED STORY POSTING
 						</p>
-						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
-						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
-						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
 					</div>
-					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
+					<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-20"></div>
 					<div className="grid grid-cols-5 grid-rows-1 text-center">
-						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[0.125rem] uppercase">
 							UNLIMITED PHOTO UPLOAD
 						</p>
-						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
-						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
-						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
 					</div>
-					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
+					<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-20"></div>
 					<div className="grid grid-cols-5 grid-rows-1 text-center">
-						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-1 col-end-3 pl-[0.9375rem] text-left row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							EMBEDDING CUSTOM CONTENT
 						</p>
-						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} className="hidden" />
 						</div>
-						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
-						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
 					</div>
-					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
+					<div className="w-full h-[1px] bg-black my-[1.4375rem] opacity-20"></div>
 					<div className="grid grid-cols-5 grid-rows-1 text-center">
-						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-1 col-end-3 pl-[0.9375rem] text-left row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							CUSTOMIZE METADATA
 						</p>
-						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} className="hidden" />
 						</div>
-						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
-						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
 					</div>
-					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
+					<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-20"></div>
 					<div className="grid grid-cols-5 grid-rows-1 text-center">
-						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-1 col-end-3 pl-[0.9375rem] text-left row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							ADVANCED METRICS
 						</p>
-						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} className="hidden" />
 						</div>
-						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} className="hidden" />
 						</div>
-						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
 					</div>
 					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
 					<div className="grid grid-cols-5 grid-rows-1 text-center">
-						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-1 col-end-3 pl-[0.9375rem] text-left row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							PHOTO DOWNLOADS
 						</p>
-						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} className="hidden" />
 						</div>
-						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} className="hidden" />
 						</div>
-						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
 					</div>
-					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
+					<div className="w-full h-[0.0625rem] bg-black my-[23px] opacity-20"></div>
 					<div className="grid grid-cols-5 grid-rows-1 text-center">
-						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-1 col-end-3 pl-[0.9375rem] text-left row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							SEARCH ENGINE INDEXING
 						</p>
-						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} className="hidden" />
 						</div>
-						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} className="hidden" />
 						</div>
-						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
 					</div>
-					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
+					<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-20"></div>
 					<div className="grid grid-cols-5 grid-rows-1 text-center">
-						<p className="col-start-1 col-end-3 pl-[15px] text-left row-start-1 text-[12px] font-bold tracking-[2px] uppercase">
+						<p className="col-start-1 col-end-3 pl-[0.9375rem] text-left row-start-1 text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							CUSTOM ANALYTICS
 						</p>
-						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-3 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} className="hidden" />
 						</div>
-						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-4 col-end-5 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} className="hidden" />
 						</div>
-						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[12px] font-bold tracking-[2px] uppercase">
+						<div className="col-start-5 row-start-1 row-start-1 flex justify-center items-center align-middle text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 							<img src={checkmark} />
 						</div>
 					</div>
-					<div className="w-full h-[1px] bg-black my-[23px] opacity-20"></div>
+					<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-20"></div>
 				</div>
 			</div>
-			<div className="tablet:grid grid-cols-5 bg-sand tablet:bg-sandmid py-[64px] px-[33px] text-white bg-no-repeat bg-cover desktop:px-[165px]">
-				<h2 className="text-[32px] col-start-1 col-end-4 desktop:col-end-3 desktop:pr-4 font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px] tablet:pb-0">
+			<div className="tablet:grid grid-cols-5 bg-sand tablet:bg-sandmid py-[4rem] px-[2.0625rem] text-white bg-no-repeat bg-cover desktop:px-[10.3125rem]">
+				<h2 className="text-[2rem] col-start-1 col-end-4 desktop:col-end-3 desktop:pr-4 font-bold leading-[2.5rem] tracking-[0.2083125rem] uppercase pb-[1.5rem] tablet:pb-0">
 					We’re in beta. Get your invite today!
 				</h2>
 				<div className="btn-two-box col-start-6 flex items-center">
