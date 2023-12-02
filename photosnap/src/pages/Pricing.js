@@ -165,131 +165,131 @@ export default function Pricing() {
 						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Pro
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Business
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 				</div>
-				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
-				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+				<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-10"></div>
+				<p className="text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 					UNLIMITED PHOTO UPLOAD
 				</p>
-				<div className="grid grid-cols-3 pt-[16px]">
+				<div className="grid grid-cols-3 pt-[1rem]">
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							BASIC
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Pro
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Business
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 				</div>
-				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
-				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+				<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-10"></div>
+				<p className="text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 					EMBEDDING CUSTOM CONTENT
 				</p>
-				<div className="grid grid-cols-3 pt-[16px]">
+				<div className="grid grid-cols-3 pt-[1rem]">
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							BASIC
 						</h4>
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Pro
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Business
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 				</div>
-				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
-				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+				<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-10"></div>
+				<p className="text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 					CUSTOMIZE METADATA
 				</p>
-				<div className="grid grid-cols-3 pt-[16px]">
+				<div className="grid grid-cols-3 pt-[1rem]">
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							BASIC
 						</h4>
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Pro
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Business
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 				</div>
-				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
-				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+				<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-10"></div>
+				<p className="text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 					ADVANCED METRICS
 				</p>
-				<div className="grid grid-cols-3 pt-[16px]">
+				<div className="grid grid-cols-3 pt-[1rem]">
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							BASIC
 						</h4>
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Pro
 						</h4>
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Business
 						</h4>
 						<img src={checkmark} className="mt-[8px]" />
 					</div>
 				</div>
-				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
-				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+				<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-10"></div>
+				<p className="text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 					PHOTO DOWNLOADS
 				</p>
-				<div className="grid grid-cols-3 pt-[16px]">
+				<div className="grid grid-cols-3 pt-4">
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							BASIC
 						</h4>
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Pro
 						</h4>
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[10px] font-bold tracking-[0.1041875rem] uppercase">
 							Business
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 				</div>
-				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
-				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+				<div className="w-full h-[0.0625rem] bg-black my-[1.4375rem] opacity-10"></div>
+				<p className="text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 					SEARCH ENGINE INDEXING
 				</p>
 				<div className="grid grid-cols-3 pt-[16px]">
