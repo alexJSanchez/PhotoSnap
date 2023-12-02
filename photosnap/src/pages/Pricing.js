@@ -138,7 +138,7 @@ export default function Pricing() {
 				</div>
 			</div>
 			{/* {compare section} */}
-			<div className="tablet:hidden  mb-[64px]">
+			<div className="tablet:hidden mb-[64px] px-[29px] tablet:px-0">
 				<p className="text-[12px] font-bold tracking-[2px] uppercase">
 					THE FEATURES
 				</p>
@@ -326,7 +326,7 @@ export default function Pricing() {
 				</div>
 				<div className="w-full h-[1px] bg-black my-[23px] opacity-10"></div>
 			</div>
-			<div className="hidden tablet:block px-20 desktop:mx[354px]">
+			<div className="hidden tablet:block desktop:mx-[354px]">
 				<h3 className="text-[40px] text-center font-bold tracking-[4.167px] leading-[48px]">
 					COMPARE
 				</h3>
