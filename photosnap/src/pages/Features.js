@@ -43,39 +43,41 @@ export default function Features() {
 				<div className="main-card-bottom-boommark tablet:hidden"></div>
 				<div
 					id="main-card-bottom"
-					className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[58px] desktop:px-[100px] "
+					className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[3.625rem] desktop:px-[6.25rem] "
 				>
-					<h2 className="text-white text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
+					<h2 className="text-white text-[2rem] tablet:text-[2.5rem] font-bold leading-[2.5rem] tablet:leading-[3rem] tracking-[0.208rem] tablet:tracking-[0.26rem] uppercase">
 						FEATURES
 					</h2>
-					<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-white text-[15px] leading-[25px] opacity-[0.6]">
+					<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[1.313rem] tablet:mb-[3rem] text-white text-[0.938rem] leading-[1.563rem] opacity-60">
 						We make sure all of our features are designed to be loved by every
 						aspiring and even professional photograpers who wanted to share
 						their stories.
 					</p>
 				</div>
 			</div>
-			<div className="tablet:grid tablet:grid-cols-2 desktop:grid-cols-3 tablet:items-end justify-center px-[39px] desktop:px-[165px] pb-[91px] pt-[64px] tablet:py-[112px] tablet:gap-[11px]">
-				<div className="text-center flex flex-col items-center tablet:mt-[56px] ">
-					<img src={responsive} className="max-w-[72px]"></img>
-					<h3 className="pt-[48px] font-bold text-[18px]">100% Responsive</h3>
-					<p className="text-[15px] pt-4 leading-[25px] opacity-60">
+			<div className="tablet:grid tablet:grid-cols-2 desktop:grid-cols-3 tablet:items-end justify-center px-[2.438rem] desktop:px-[10.313rem] pb-[5.688rem] pt-[4rem] tablet:py-[7rem] tablet:gap-[0.688rem]">
+				<div className="text-center flex flex-col items-center tablet:mt-[3.5rem] ">
+					<img src={responsive} className="max-w-[4.5rem]"></img>
+					<h3 className="pt-[3rem] font-bold text-[1.125rem]">
+						100% Responsive
+					</h3>
+					<p className="text-[0.938rem] pt-4 leading-[1.563rem] opacity-60">
 						No matter which the device you’re on, our site is fully responsive
 						and stories look beautiful on any screen.
 					</p>
 				</div>
-				<div className="text-center flex flex-col items-center mt-[56px]">
-					<img src={infinite} className="max-w-[72px]"></img>
-					<h3 className="pt-[66px] text-[18px] font-bold ">
+				<div className="text-center flex flex-col items-center mt-[3.5rem]">
+					<img src={infinite} className="max-w-[4.5rem]"></img>
+					<h3 className="pt-[4.125rem] text-[1.125rem] font-bold ">
 						No Photo Upload Limit
 					</h3>
-					<p className="text-[15px] pt-4 leading-[25px] opacity-60">
+					<p className="text-[0.938rem] pt-4 leading-[1.563rem] opacity-60">
 						Our tool has no limits on uploads or bandwidth. Freely upload in
 						bulk and share all of your stories in one go.
 					</p>
 				</div>
-				<div className="text-center flex flex-col items-center mt-[56px] mb-[25px]">
-					<img src={bullhorn} className="max-w-[72px]"></img>
+				<div className="text-center flex flex-col items-center mt-[3.5rem] mb-[1.563rem]">
+					<img src={bullhorn} className="max-w-[4.5rem]"></img>
 					<h3 className="pt-[48px] text-[18px] font-bold leading-[25px]">
 						Available to Embed
 					</h3>
