@@ -26,7 +26,7 @@ export default function Home() {
 		<>
 			<div className="App">
 				<main>
-					{/*card one*/}
+					{/*Header*/}
 					<div
 						id="main-card"
 						className="bg-black tablet:grid tablet:grid-cols-3 desktop:grid-cols-5"
@@ -57,12 +57,12 @@ export default function Home() {
 						<div className="main-card-bottom-boommark tablet:hidden"></div>
 						<div
 							id="main-card-bottom"
-							className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[3.625rem] desktop:px-[6.25rem] "
+							className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-white bg-black pr-6 py-[4.5rem] pl-[2.063rem] tablet:px-[3.625rem] desktop:px-[6.25rem]"
 						>
 							<h2 className="text-white text-[2rem] tablet:text-[2.5rem] font-bold leading-[2.5rem] tablet:leading-[3rem] tracking-[.208rem] tablet:tracking-[.26rem] uppercase">
 								Create and share your photo Stories.
 							</h2>
-							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[1.313rem] tablet:mb-[3rem] text-white text-[.938rem] leading-[1.563rem] opacity-60">
+							<p className="mt-4 mb-[1.438rem] tablet:mt-[1.313rem] tablet:mb-12 text-white text-[.938rem] leading-[1.563rem] opacity-60">
 								Photosnap is a platform for photographers and visual
 								storytellers. We make it easy to share photos, tell stories and
 								connect with others.
@@ -75,7 +75,7 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					{/*card two*/}
+					{/*sub header one*/}
 					<div className="bg-white tablet:grid tablet:grid-cols-3 desktop:grid-cols-5">
 						<div className="tablet:col-start-1 desktop:col-end-4">
 							<img className="w-full tablet:hidden" src={beautiful_stories} />
@@ -88,11 +88,11 @@ export default function Home() {
 								src={beautiful_stories_desk}
 							/>
 						</div>
-						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 desktop:col-start-4 tablet:row-start-1 tablet:col-end-6 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px] desktop:px-[80px]">
-							<h2 className="pr-[3.5rem] text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tablet:pr-[100px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
+						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 desktop:col-start-4 tablet:row-start-1 tablet:col-end-6 text-black bg-white pt-[4.5rem] pr-6 pb-[4.5rem] pl-[2.063rem] tablet:px-[3.125rem] desktop:px-20">
+							<h2 className="pr-[3.5rem] text-[2rem] tablet:text-10 font-bold leading-[2.5rem] tablet:leading-[3rem] tablet:pr-[6.125rem] tracking-[0.208rem] tablet:tracking-[0.26rem] uppercase">
 								BEAUTIFUL STORIES EVERY TIME
 							</h2>
-							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-black font-[15px] leading-[25px] opacity-[0.6]">
+							<p className="mt-4 mb-[1.438rem] tablet:mt-[1.313rem] tablet:mb-12 text-black font-[.938rem] leading-[1.563rem] opacity-60">
 								We provide design templates to ensure your stories look
 								terrific. Easily add photos, text, embed maps and media from
 								other networks. Then share your story with everyone.
@@ -105,7 +105,7 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					{/*card three*/}
+					{/*sub header two*/}
 					<div className="bg-white tablet:grid tablet:grid-cols-3 desktop:grid-cols-5">
 						<div className="tablet:col-start-3 desktop:col-start-3 desktop:col-end-6">
 							<img
