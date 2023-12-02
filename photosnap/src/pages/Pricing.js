@@ -52,11 +52,13 @@ export default function Pricing() {
 			</div>
 			<div className="flex justify-center items-center gap-[2rem] mt-[4rem] mb-[2.5rem]">
 				{discount ? (
-					<p className="text-[18px] font-bold leading-[25px] opacity-50">
+					<p className="text-[1.125rem] font-bold leading-[1.5625rem] opacity-50">
 						Monthly
 					</p>
 				) : (
-					<p className="text-[18px] font-bold leading-[25px]">Monthly</p>
+					<p className="text-[1.125rem] font-bold leading-[1.5625rem]">
+						Monthly
+					</p>
 				)}
 				<label class="switch">
 					<input
@@ -68,15 +70,17 @@ export default function Pricing() {
 					<span class="slider round"></span>
 				</label>
 				{discount ? (
-					<p className="text-[18px] font-bold leading-[25px]">Yearly</p>
+					<p className="text-[1.125rem] font-bold leading-[1.5625rem]">
+						Yearly
+					</p>
 				) : (
-					<p className="text-[18px] font-bold leading-[25px] opacity-50">
+					<p className="text-[1.125rem] font-bold leading-[1.5625rem] opacity-50">
 						Yearly
 					</p>
 				)}
 			</div>
 			<div className="flex flex-col items-center justify-center mx-7 mb-[4rem] desktop:flex-row gap-[1.875rem]">
-				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px] desktop:max-w-[350px]">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[3.5rem] pb-[2.5rem] px-[1.375rem] tablet:px-[2.5rem] desktop:max-w-[21.875rem]">
 					<div className="tablet:col-start-1 tablet:col-end-2 tablet:row-start-1 row-end-2">
 						<h3 className="text-[1.5rem] font-bold leading-[1.563rem]">
 							Basic
@@ -100,8 +104,8 @@ export default function Pricing() {
 				</div>
 				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center text-white bg-black my-6 desktop:my-0  pt-[3rem] desktop:pt-[5.75rem] pb-[2.5rem] desktop:pb-[4.438rem] px-[1.375rem] tablet:px-[2.5rem] desktop:max-w-[21.875rem]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 tablet:row-end-2 ">
-						<h3 className="text-[24px] font-bold leading-[25px]">Pro</h3>
-						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px]">
+						<h3 className="text-[1.5rem] font-bold leading-[1.5625rem]">Pro</h3>
+						<p className="text-[0.9375rem] leading-[1.5625rem] opacity-60 mt-[1.125rem]">
 							More advanced features available. Recommended for photography
 							veterans and professionals.
 						</p>
@@ -152,13 +156,13 @@ export default function Pricing() {
 				</p>
 				<div className="grid grid-cols-3 pt-[1rem]">
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.104rem] uppercase">
 							BASIC
 						</h4>
-						<img src={checkmark} className="mt-[8px]" />
+						<img src={checkmark} className="mt-[0.5rem]" />
 					</div>
 					<div>
-						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
+						<h4 className="text-[0.625rem] font-bold tracking-[0.1041875rem] uppercase">
 							Pro
 						</h4>
 						<img src={checkmark} className="mt-[8px]" />
