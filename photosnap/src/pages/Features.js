@@ -106,15 +106,17 @@ export default function Features() {
 				</div>
 				<div className="text-center flex flex-col items-center mt-[3.5rem]">
 					<img src={dragdrop} className="max-w-[4.5rem]"></img>
-					<h3 className="pt-[3rem] text-[18px] font-bold">Drag & Drop Image</h3>
-					<p className="text-[15px] pt-4 leading-[25px] opacity-60">
+					<h3 className="pt-[3rem] text-[1.125rem] font-bold">
+						Drag & Drop Image
+					</h3>
+					<p className="text-[0.938rem] pt-4 leading-[1.563rem] opacity-60">
 						Easily drag and drop your image and get beautiful shots everytime.
 						No over the top tooling to add friction to creating stories.
 					</p>
 				</div>
 			</div>
-			<div className="tablet:grid grid-cols-5 desktop:grid-cols-3 bg-sand tablet:bg-sandmid py-[64px] desktop:py-[68px] px-[33px] desktop:px-[155px] text-white bg-no-repeat bg-cover">
-				<h2 className="text-[32px] col-start-1 col-end-4 desktop:col-end-2 desktop:pr-8  font-bold leading-[40px] tracking-[3.333px] uppercase pb-[24px] tablet:pb-0 ">
+			<div className="tablet:grid grid-cols-5 desktop:grid-cols-3 bg-sand tablet:bg-sandmid py-[4rem] desktop:py-[4.25rem] px-[2.063rem] desktop:px-[9.688rem] text-white bg-no-repeat bg-cover">
+				<h2 className="text-[2rem] col-start-1 col-end-4 desktop:col-end-2 desktop:pr-8  font-bold leading-[2.5rem] tracking-[0.208rem] uppercase pb-[1.5rem] tablet:pb-0 ">
 					We’re in beta. Get your invite today!
 				</h2>
 				<div className="btn-two-box col-start-6 desktop:col-end-3 flex items-center desktop:justify-end">
