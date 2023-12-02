@@ -62,7 +62,7 @@ export default function Home() {
 							<h2 className="text-white text-[2rem] tablet:text-[2.5rem] font-bold leading-[2.5rem] tablet:leading-[3rem] tracking-[.208rem] tablet:tracking-[.26rem] uppercase">
 								Create and share your photo Stories.
 							</h2>
-							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-white text-[15px] leading-[25px] opacity-[0.6]">
+							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[1.313rem] tablet:mb-[3rem] text-white text-[.938rem] leading-[1.563rem] opacity-60">
 								Photosnap is a platform for photographers and visual
 								storytellers. We make it easy to share photos, tell stories and
 								connect with others.
