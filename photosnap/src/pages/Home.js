@@ -88,7 +88,7 @@ export default function Home() {
 								src={beautiful_stories_desk}
 							/>
 						</div>
-						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 desktop:col-start-4 tablet:row-start-1 tablet:col-end-6 text-black bg-white pt-[4.5rem] pr-6 pb-[4.5rem] pl-[2.063rem] tablet:px-[3.125rem] desktop:px-20">
+						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-2 desktop:col-start-4 tablet:row-start-1 tablet:col-end-6 text-black bg-white pt-[4.5rem] pr-4 pb-[4.5rem] pl-[2.063rem] tablet:px-[3.125rem] desktop:px-20">
 							<h2 className="pr-[3.5rem] text-[2rem] tablet:text-10 font-bold leading-[2.5rem] tablet:leading-[3rem] tablet:pr-[6.125rem] tracking-[0.208rem] tablet:tracking-[0.26rem] uppercase">
 								BEAUTIFUL STORIES EVERY TIME
 							</h2>
@@ -99,7 +99,7 @@ export default function Home() {
 							</p>
 							<div className="btn-two-box">
 								<button className="btn-two">
-									Get An Invite
+									VIEW THE STORIES
 									<img className="" src={arrow} />
 								</button>
 							</div>
@@ -124,11 +124,11 @@ export default function Home() {
 								alt="design for everyone"
 							/>
 						</div>
-						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[50px] desktop:px-[100px]">
-							<h2 className="pr-[3.5rem] text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
+						<div className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-black bg-white pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[3.125rem] desktop:px-[6.25rem]">
+							<h2 className="pr-[3.5rem] text-[2rem] tablet:text-[2.5rem] font-bold leading-[2.5rem] tablet:leading-[3rem] tracking-[.208rem] tablet:tracking-[0.26rem] uppercase">
 								DESIGNED FOR EVERYONE
 							</h2>
-							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-black font-[15px] leading-[25px] opacity-[0.6]">
+							<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[1.313rem] tablet:mb-[3rem] text-black font-[0.938rem] leading-[1.563rem] opacity-60">
 								Photosnap can help you create stories that resonate with your
 								audience. Our tool is designed for photographers of all levels,
 								brands, businesses you name it.
@@ -142,7 +142,7 @@ export default function Home() {
 						</div>
 					</div>
 
-					{/*sub cards*/}
+					{/*Featured story cards*/}
 					<div className="tablet:grid tablet:grid-cols-2 desktop:grid-cols-4">
 						{/*one*/}
 						<div className="relative">
@@ -157,10 +157,10 @@ export default function Home() {
 								className="w-full hidden tablet:block "
 							/>
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
-								<p className="text-white text-[18px] font-bold leading-[25px]">
+								<p className="text-white text-[1.125rem] font-bold leading-[1.563rem]">
 									The Mountains
 								</p>
-								<p className="text-white text-[13px]">by John Appleseed</p>
+								<p className="text-white text-[0.813rem]">by John Appleseed</p>
 								<div className="line bg-white"> </div>
 								<div className="btn-two-box">
 									<button className="btn-two-light">
@@ -183,10 +183,10 @@ export default function Home() {
 								className="w-full hidden tablet:block"
 							></img>
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
-								<p className="text-white text-[18px] font-bold leading-[25px]">
+								<p className="text-white text-[1.125rem] font-bold leading-[1.563rem]">
 									Sunset Cityscapes
 								</p>
-								<p className="text-white text-[13px]">by Benjamin Cruz</p>
+								<p className="text-white text-[0.813rem]">by Benjamin Cruz</p>
 								<div className="line bg-white"> </div>
 								<div className="btn-two-box">
 									<button className="btn-two-light">
@@ -209,10 +209,10 @@ export default function Home() {
 								className="w-full hidden tablet:block"
 							></img>
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
-								<p className="text-white text-[18px] font-bold leading-[25px]">
+								<p className="text-white text-[1.125rem] font-bold leading-[1.563rem]">
 									18 Days Voyage
 								</p>
-								<p className="text-white text-[13px]">by Alexei Borodin</p>
+								<p className="text-white text-[0.813rem]">by Alexei Borodin</p>
 								<div className="line bg-white"> </div>
 								<div className="btn-two-box">
 									<button className="btn-two-light">
@@ -230,8 +230,10 @@ export default function Home() {
 								className="w-full hidden tablet:block"
 							></img>
 							<div className="w-full absolute pr-[2rem] pl-[2rem] top-[70%] left-[10%] translate-x-[-10%] translate-y-[-10%]">
-								<p className="sub-card-title">Architecturals</p>
-								<p className="sub-card-author">by Samantha Brooke</p>
+								<p className="text-white text-[1.125rem] font-bold leading-[1.563rem]">
+									Architecturals
+								</p>
+								<p className="text-white text-[0.813rem]">by Samantha Brooke</p>
 								<div className="line bg-white"> </div>
 								<div className="btn-two-box">
 									<button className="btn-two-light">
@@ -242,33 +244,34 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<div className="pb-[5rem] px-[2rem] tablet:pt-[50px] pt-[80px] desktop:py-[120px] tablet:px-[150px] desktop:flex desktop:items-end">
+					{/* Detail cards */}
+					<div className="pb-[5rem] px-[2rem] tablet:pt-[3.125rem] pt-[5rem] desktop:py-[7.5rem] tablet:px-[9.375rem] desktop:flex desktop:items-end">
 						<div className="flex flex-col justify-center items-center ">
 							<img src={responsive}></img>
-							<h3 className="text-black text-center text-[18px] font-bold leading-[25px] pt-[3rem] pb-4">
+							<h3 className="text-black text-center text-[1.125rem] font-bold leading-[1.563rem] pt-[3rem] pb-4">
 								100% Responsive
 							</h3>
-							<p className="text-black text-center text-[15px] leading-[25px] opacity-60 desktop:px-6 ">
+							<p className="text-black text-center text-[0.938rem] leading-[1.563rem] opacity-60 desktop:px-6 ">
 								No matter which the device you’re on, our site is fully
 								responsive and stories look beautiful on any screen.
 							</p>
 						</div>
-						<div className="flex flex-col justify-center items-center pt-[56px] desktop:pt-0">
+						<div className="flex flex-col justify-center items-center pt-[3.5rem] desktop:pt-0">
 							<img src={infinite}></img>
-							<h3 className="text-black text-center text-[18px] font-bold leading-[25px] pt-[3rem] desktop:pt-[66px] pb-4">
+							<h3 className="text-black text-center text-[1.125rem] font-bold leading-[1.563rem] pt-[3rem] desktop:pt-[4.125rem] pb-4">
 								No Photo Upload Limit
 							</h3>
-							<p className="text-black text-center text-[15px] leading-[25px] opacity-60 desktop:px-6">
+							<p className="text-black text-center text-[0.938rem] leading-[1.563rem] opacity-60 desktop:px-6">
 								Our tool has no limits on uploads or bandwidth. Freely upload in
 								bulk and share all of your stories in one go.
 							</p>
 						</div>
-						<div className="flex flex-col justify-center items-center pt-[56px] desktop:pt-0">
+						<div className="flex flex-col justify-center items-center pt-[3.5rem] desktop:pt-0">
 							<img src={bullhorn}></img>
-							<h3 className="text-black text-center text-[18px] font-bold leading-[25px] pt-[3rem] pb-4">
+							<h3 className="text-black text-center text-[1.125rem] font-bold leading-[1.563rem] pt-[3rem] pb-4">
 								Available to Embed
 							</h3>
-							<p className="text-black text-center text-[15px] leading-[25px] opacity-60 desktop:mb-[25px]">
+							<p className="text-black text-center text-[0.938rem] leading-[1.563rem] opacity-60 desktop:mb-[1.563rem]">
 								Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
 								videos, Google Maps, and more.
 							</p>
