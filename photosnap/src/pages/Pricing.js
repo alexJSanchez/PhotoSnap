@@ -40,17 +40,17 @@ export default function Pricing() {
 					id="main-card-bottom"
 					className="tablet:flex tablet:flex-col tablet:justify-center tablet:col-start-1 tablet:row-start-1 tablet:col-end-3 desktop:col-end-3 text-white bg-black pt-[4.5rem] pr-[1.5rem] pb-[4.5rem] pl-[2.063rem] tablet:px-[58px] desktop:px-[100px] "
 				>
-					<h2 className="text-white text-[32px] tablet:text-[40px] font-bold leading-[40px] tablet:leading-[48px] tracking-[3.333px] tablet:tracking-[4.167px] uppercase">
+					<h2 className="text-white text-[2rem] tablet:text-[2.5rem] font-bold leading-[2.5rem] tablet:leading-[3rem] tracking-[0.208rem] tablet:tracking-[0.26rem] uppercase">
 						FEATURES
 					</h2>
-					<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[21px] tablet:mb-[48px] text-white text-[15px] leading-[25px] opacity-[0.6]">
+					<p className="mt-[1rem] mb-[1.438rem] tablet:mt-[1.313rem] tablet:mb-[3rem] text-white text-[0.938rem] leading-[1.563rem] opacity-[0.6]">
 						We make sure all of our features are designed to be loved by every
 						aspiring and even professional photograpers who wanted to share
 						their stories.
 					</p>
 				</div>
 			</div>
-			<div className="flex justify-center items-center gap-[32px] mt-[64px] mb-[40px]">
+			<div className="flex justify-center items-center gap-[2rem] mt-[4rem] mb-[2.5rem]">
 				{discount ? (
 					<p className="text-[18px] font-bold leading-[25px] opacity-50">
 						Monthly
@@ -75,28 +75,30 @@ export default function Pricing() {
 					</p>
 				)}
 			</div>
-			<div className="flex flex-col items-center justify-center mx-7 mb-[64px] desktop:flex-row gap-[30px]">
+			<div className="flex flex-col items-center justify-center mx-7 mb-[4rem] desktop:flex-row gap-[1.875rem]">
 				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px] desktop:max-w-[350px]">
 					<div className="tablet:col-start-1 tablet:col-end-2 tablet:row-start-1 row-end-2">
-						<h3 className="text-[24px] font-bold leading-[25px]">Basic</h3>
-						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
+						<h3 className="text-[1.5rem] font-bold leading-[1.563rem]">
+							Basic
+						</h3>
+						<p className="text-[0.938rem] leading-[1.563rem] opacity-60 mt-[1.125rem] ">
 							Includes basic usage of our platform. Recommended for new and
 							aspiring photographers.
 						</p>
 					</div>
-					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center desktop:pt-[40px] ">
-						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-[0px] ">
+					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center desktop:pt-[2.5rem] ">
+						<p className="text-[2.5rem] font-bold leading-[3rem] tracking-[0.26rem] uppercase pt-[2.5rem] tablet:pt-[0rem] ">
 							{discount ? "$190.00" : "$19.00"}
 						</p>
-						<p className="text-[15px] leading-[25px] opacity-60 ">
+						<p className="text-[0.938rem] leading-[1.563rem] opacity-60">
 							{discount ? "per year" : "per month"}
 						</p>
 					</div>
-					<button className="row-start-3 col-start-1 col-end-3 text-[12px] uppercase tracking-[2px] font-bold bg-black text-white mt-[52px] w-full py-[12px]">
+					<button className="row-start-3 col-start-1 col-end-3 text-[0.75rem] uppercase tracking-[0.125rem] font-bold bg-black text-white mt-[3.25rem] w-full py-[0.75rem]">
 						pick plan
 					</button>
 				</div>
-				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center text-white bg-black my-6 desktop:my-0  pt-[48px] desktop:pt-[92px] pb-[40px] desktop:pb-[71px] px-[22px] tablet:px-[40px] desktop:max-w-[350px]">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center text-white bg-black my-6 desktop:my-0  pt-[3rem] desktop:pt-[5.75rem] pb-[2.5rem] desktop:pb-[4.438rem] px-[1.375rem] tablet:px-[2.5rem] desktop:max-w-[21.875rem]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 tablet:row-end-2 ">
 						<h3 className="text-[24px] font-bold leading-[25px]">Pro</h3>
 						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px]">
@@ -105,48 +107,50 @@ export default function Pricing() {
 						</p>
 					</div>
 					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center">
-						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] ">
+						<p className="text-[1.5rem] font-bold leading-[3rem] tracking-[0.26rem] uppercase pt-[2.5rem] ">
 							{discount ? "$390.00" : "$39.00"}
 						</p>
-						<p className="text-[15px] leading-[25px] opacity-60 ">
+						<p className="text-[0.938rem] leading-[1.563rem] opacity-60 ">
 							{discount ? "per year" : "per month"}
 						</p>
 					</div>
-					<button className="tablet:row-start-3 tablet:col-start-1 tablet:col-end-3 text-[12px] uppercase tracking-[2px] font-bold bg-white text-black mt-[52px] w-full py-[12px]">
+					<button className="tablet:row-start-3 tablet:col-start-1 tablet:col-end-3 text-[0.75rem] uppercase tracking-[0.125rem] font-bold bg-white text-black mt-[3.25rem] w-full py-[0.75rem">
 						pick plan
 					</button>
 				</div>
-				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[56px] pb-[40px] px-[22px] tablet:px-[40px] desktop:max-w-[350px]">
+				<div className="tablet:grid tablet:grid-cols-4 tablet:grid-row-4 text-center tablet:text-left desktop:flex desktop:flex-col desktop:items-center desktop:text-center bg-[#F5F5F5] pt-[3.5rem] pb-[2.5rem] px-[1.375rem] tablet:px-[2.5rem] desktop:max-w-[21.875rem]">
 					<div className="tablet:col-start-1 tablet:col-end-3 tablet:row-start-1 tablet:row-end-2">
-						<h3 className="text-[24px] font-bold leading-[25px]">Business</h3>
-						<p className="text-[15px] leading-[25px] opacity-60 mt-[18px] ">
+						<h3 className="text-[1.5rem] font-bold leading-[1.563rem]">
+							Business
+						</h3>
+						<p className="text-[0.938rem] leading-[1.563rem] opacity-60 mt-[1.125rem] ">
 							Additional features available such as more detailed metrics.
 							Recommended for business owners.
 						</p>
 					</div>
-					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center desktop:pt-[40px] ">
-						<p className="text-[40px] font-bold leading-[48px] tracking-[4.167px] uppercase pt-[40px] tablet:pt-0">
+					<div className="tablet:col-start-4 tablet:row-start-1 tablet:row-end-1 tablet:text-right desktop:text-center desktop:pt-[2.5rem] ">
+						<p className="text-[2.5rem] font-bold leading-[3rem] tracking-[0.26rem] uppercase pt-[2.5rem] tablet:pt-0">
 							{discount ? "$990.00" : "$99.00"}
 						</p>
-						<p className="text-[15px] leading-[25px] opacity-60 ">
+						<p className="text-[0.938rem] leading-[1.563rem] opacity-60 ">
 							{discount ? "per year" : "per month"}
 						</p>
 					</div>
-					<button className="row-start-3 col-start-1 col-end-3 text-[12px] uppercase tracking-[2px] font-bold bg-black text-white mt-[52px] w-full py-[12px]">
+					<button className="row-start-3 col-start-1 col-end-3 text-[0.75rem] uppercase tracking-[0.125rem] font-bold bg-black text-white mt-[3.25rem] w-full py-[0.75rem]">
 						pick plan
 					</button>
 				</div>
 			</div>
 			{/* {compare section} */}
-			<div className="tablet:hidden mb-[64px] px-[29px] tablet:px-0">
-				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+			<div className="tablet:hidden mb-[4rem] px-[1.813rem] tablet:px-0">
+				<p className="text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 					THE FEATURES
 				</p>
-				<div className="w-full h-[1px] bg-black my-[23px]"></div>
-				<p className="text-[12px] font-bold tracking-[2px] uppercase">
+				<div className="w-full h-[0.063rem] bg-black my-[1.438rem]"></div>
+				<p className="text-[0.75rem] font-bold tracking-[0.125rem] uppercase">
 					UNLIMITED STORY POSTING
 				</p>
-				<div className="grid grid-cols-3 pt-[16px]">
+				<div className="grid grid-cols-3 pt-[1rem]">
 					<div>
 						<h4 className="text-[10px] font-bold tracking-[1.667px] uppercase">
 							BASIC
